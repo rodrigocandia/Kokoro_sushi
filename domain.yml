@@ -1,0 +1,48 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- saludar
+- pedir_sushi
+- seleccionar_pedido
+- fuera_de_alcance
+- no_modificar
+- destino
+- forma_pago
+- modificacion
+entities:
+- promocion_elegida
+- metodo_pago
+- entrega_producto
+- modificaciones
+slots:
+  entrega_producto:
+    type: unfeaturized
+  metodo_pago:
+    type: unfeaturized
+  modificaciones:
+    type: unfeaturized
+  promocion_elegida:
+    type: unfeaturized
+responses:
+  utter_greet:
+  - text: Hola! Bienvenido a KOKORO SUSHI DELIVERY, Hablas con MAX tu asistente personal,
+      ¿en que te puedo ayudar?
+  utter_enviar_carta:
+  - text: 'claro, aqui estan nuestras exquisitas promosiones:'
+  utter_prom_2:
+  - image: https://drive.google.com/file/d/1SFCpWrW8k7oOFHxHIUEmsDokeeVEUWqZ/view?usp=sharing
+    text: Promocion para 2 Personas.
+  utter_ask_promocion_elegida:
+  - text: Que promocion desea hoy?
+  utter_ask_modificaciones:
+  - text: Desea modificar el pedido?
+  utter_ask_entrega_producto:
+  - text: lugar de despacho del pedido?
+  utter_ask_metodo_pago:
+  - text: Su pago se efectuara en EFECTIVO o TARJETA?
+  utter_slots_values:
+  - text: 'Su pedido Es:/n - Promocion: {promocion_elegida}/n - Modificaciones: {modificaciones}/n
+      - Despacho del pedido: {entrega_producto}/n - Forma de pago: {metodo_pago}'
+forms:
+- pedido_sushi
