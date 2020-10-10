@@ -22,14 +22,6 @@ class FormularioPedido(FormAction):
        
         return["promocion_elegida", "modificaciones", "entrega_producto", "metodo_pago"]
     
-    def submit(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
-        ) -> List[Dict]:
-        return []
-
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
 
         return {
@@ -47,3 +39,12 @@ class FormularioPedido(FormAction):
                 self.from_entity(entity="metodo_pago"),
             ],
         }
+   
+    def submit(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+        ) -> List[Dict]:
+        return []
+

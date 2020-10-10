@@ -31,12 +31,6 @@
 - la [27a](promocion_elegida)
 - la [27b](promocion_elegida)
 
-## intent:no_modificar
-- [No](modificaciones)
-- [No], esta perfecto (modificaciones)
-- ninguna [No](modificaciones)
-- [No], gracias (modificaciones)
-
 ## intent:destino
 - calle 4 oriente 349 torre D 104
 - 4 oriente 349 torre D 104
@@ -59,3 +53,5 @@
 - al teri panko quitar cebollin
 - al teri panko eliminar pollo
 - al teri roll agregar queso
+- no
+
