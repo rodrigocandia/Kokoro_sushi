@@ -50,37 +50,46 @@ responses:
   utter_enviar_carta:
   - text: 'Claro, aquí están nuestras exquisitas promociones:'
   utter_prom_2:
-  - image: http://imgfz.com/i/3RaeqId.jpeg
+  - image: http://imgfz.com/i/IvK2HVG.jpeg
     text: 'Promoción para 2 Personas:'
   utter_prom_3:
-  - image: http://imgfz.com/i/LbJdeRl.jpeg
+  - image: http://imgfz.com/i/YSKXBOL.jpeg
     text: 'Promoción para 3 Personas:'
+  utter_prom_4:
+  - image: http://imgfz.com/i/rB5Itfs.jpeg
+    text: 'Promoción para 3 Personas:'
+  utter_prom_fam:
+  - image: http://imgfz.com/i/vLaZHJn.jpeg
+    text: 'Promoción familiar:'
+  utter_prom_fam_2:
+  - image: http://imgfz.com/i/obB16s4.jpeg
+    text: 'Promoción familiar:'
   utter_derivar_persona:
   - text: Sera derivado para hablar con nuestro personal encargado. espero haberte
       ayudado. saludos!!
   utter_sugerir:
   - text: Exquisitos, me atrevería de decir que son los mejores!!
   utter_confirmar_pedido:
-  - text: Su pedido esta correcto?
+  - text: ¿Su pedido esta correcto?
   utter_derivar_pedido:
   - text: Su pedido sera derivado a nuestro personal; le señalara el tiempo estimado
-      para la entrega y el total a pagar. "GRACIAS POR PREFERIR TEST SUSHI DELIVERY"
+      para la entrega y el total a pagar. "GRACIAS POR PREFERIR KOKORO SUSHI DELIVERY"
   utter_nuevo_pedido:
-  - text: Qué promoción desea?
+  - text: ¿Qué promoción desea?
   utter_ask_promocion_elegida:
-  - text: Qué promoción desea hoy?
+  - text: ¿Qué promoción desea hoy?
   utter_ask_hacer_modificaciones:
   - buttons:
     - payload: VERDADERO
       title: SI
     - payload: FALSO
       title: NO
-    text: Desea modificar el pedido?
+    text: ¿Desea modificar el pedido?
   utter_ask_modificaciones:
   - text: ¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener
       un valor agregado de 600 CLP aproximados
   utter_ask_entrega_producto:
-  - text: Lugar de entrega del pedido?
+  - text: ¿Lugar de entrega del pedido?
   utter_ask_metodo_pago:
   - text: Su pago se realizara con; "EFECTIVO", "TARJETA"
   utter_slots_values:
@@ -90,15 +99,16 @@ responses:
   utter_continuacion:
   - text: Lo siento, no lo entiendo bien, quieres continuar
   utter_fuera_de_alcance:
-  - text: Lo siento, no logro entender, puedes decirlo de otra manera?
+  - text: Lo siento, no logro entender, ¿puedes decirlo de otra manera?
   utter_continuar:
-  - text: Deseas continuar con el pedido?
+  - text: ¿Deseas continuar con el pedido?
   utter_goodbye:
   - text: Hasta pronto, que disfrutes tu delicioso pedido :D
   utter_horarios:
-  - text: Nuestro horario de atención es de Lunes a Domingo de 16:00hrs a 23:30hrs.
+  - text: Nuestro horario de atención es de Lunes a Domingo de 15:00 hrs hasta 22:00
+      hrs.
   utter_ubicados:
-  - text: Nos encontraras en Av. chatevolution 1111, Temuco, Araucanía
+  - text: Nos encontraras en Av. Pablo Neruda 02130, Temuco, Araucanía
   utter_sushi_veganos:
   - text: Si, contamos con sushis veganos en nuestros menús.
   utter_iamabot:
@@ -149,5 +159,8 @@ actions:
 - utter_eliminar_ingredientes
 - action_pause_conversation
 - utter_prom_3
+- utter_prom_4
+- utter_prom_fam
+- utter_prom_fam_2
 forms:
 - pedido_final
