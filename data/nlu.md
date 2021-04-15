@@ -1,9 +1,30 @@
 ## intent:saludar
 - hola
+- alo
 - buenas tardes
 - buenas noches
 - que tal
+- ola
+- hola hola
 - hola buenas
+
+## intent:pedidos_locos
+- Tienen completos?
+- Tienen papas fritas?
+- me das unas papas fritas
+- venden tacos?
+- tienen burritos?
+- a cuanto las papas fritas?
+- vende sopaipillas?
+- venden completos?
+- tiene churrascos?
+
+## intent:eliminar_ingredientes
+- sacar ingredientes tambien tiene un costo?
+- si le saco un ingrediente me cobraran?
+- quitar un ingrediente se puede?
+- puedo eliminar ingredientes?
+- se peden sacar ingrediente?
 
 ## intent:pedir_sushi
 - quiero realizar un pedido
