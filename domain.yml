@@ -1,21 +1,41 @@
 session_config:
-  session_expiration_time: 60
+  session_expiration_time: 120
   carry_over_slots_to_new_session: true
 intents:
 - saludar
-- pedir_sushi
+- despedida
+- horario_atencion
+- pedir_pedido
+- solicitar_pedido
+- bot_challenge
 - seleccionar_pedido
-- fuera_de_alcance
-- no_modificar
-- destino
+- inter_persona
+- preguntar_modificar_pedido
+- confirmacion
+- ubicados
 - forma_pago
+- destino
+- modificaciones_pedido
+- pregunta_sushi_veganos
+- contribucion
+- fuera_de_alcance
 - modificacion
+- negar
+- sugerencia
+- medios_pago
+- entregas
+- pedidos_locos
+- verdadero
+- falso
+- eliminar_ingredientes
 entities:
 - promocion_elegida
 - metodo_pago
 - entrega_producto
 slots:
   entrega_producto:
+    type: unfeaturized
+  hacer_modificaciones:
     type: unfeaturized
   metodo_pago:
     type: unfeaturized
@@ -24,25 +44,110 @@ slots:
   promocion_elegida:
     type: unfeaturized
 responses:
+  utter_greet:
+  - text: Hola! Bienvenido a KOKORO SUSHI DELIVERY, Hablas con MAX tu asistente personal,
+      ¿en que te puedo ayudar?
   utter_enviar_carta:
-  - text: 'claro!, aquí están nuestras exquisitas promociones :'
+  - text: 'Claro, aquí están nuestras exquisitas promociones:'
   utter_prom_2:
-  - image: https://drive.google.com/file/d/1SFCpWrW8k7oOFHxHIUEmsDokeeVEUWqZ/view?usp=sharing
-    text: Promoción para 2 Personas.
+  - image: http://imgfz.com/i/3RaeqId.jpeg
+    text: 'Promoción para 2 Personas:'
+  utter_prom_3:
+  - image: http://imgfz.com/i/LbJdeRl.jpeg
+    text: 'Promoción para 3 Personas:'
+  utter_derivar_persona:
+  - text: Sera derivado para hablar con nuestro personal encargado. espero haberte
+      ayudado. saludos!!
+  utter_sugerir:
+  - text: Exquisitos, me atrevería de decir que son los mejores!!
+  utter_confirmar_pedido:
+  - text: Su pedido esta correcto?
+  utter_derivar_pedido:
+  - text: Su pedido sera derivado a nuestro personal; le señalara el tiempo estimado
+      para la entrega y el total a pagar. "GRACIAS POR PREFERIR TEST SUSHI DELIVERY"
+  utter_nuevo_pedido:
+  - text: Qué promoción desea?
   utter_ask_promocion_elegida:
-  - text: ¡Hola! Bienvenido a KOKORO SUSHI DELIVERY, Hablas con MAX tu asistente personal,
-      ¿Qué promoción desea hoy?
+  - text: Qué promoción desea hoy?
+  utter_ask_hacer_modificaciones:
+  - buttons:
+    - payload: VERDADERO
+      title: SI
+    - payload: FALSO
+      title: NO
+    text: Desea modificar el pedido?
   utter_ask_modificaciones:
-  - text: Desea realizar modificiones al pedido? "recorcordandole que los cambios
-      de ingredientes tienen un costo aproximado de $600 C/U"
+  - text: ¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener
+      un valor agregado de 600 CLP aproximados
   utter_ask_entrega_producto:
-  - text: lugar de despacho del pedido?
+  - text: Lugar de entrega del pedido?
   utter_ask_metodo_pago:
-  - text: Su pago se efectuara en EFECTIVO o TARJETA?
-  utter_ask_continue:
-  - text: Sorry, I don't quite understand. Desea continuar con el su orden?
+  - text: Su pago se realizara con; "EFECTIVO", "TARJETA"
   utter_slots_values:
-  - text: 'Su pedido Es: - Promoción: {promocion_elegida} - Modificaciones: {modificaciones}
-      - Despacho del pedido: {entrega_producto} - Forma de pago: {metodo_pago}'
+  - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
+      \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
+      \ {entrega_producto}\n - Forma de pago: {metodo_pago}"
+  utter_continuacion:
+  - text: Lo siento, no lo entiendo bien, quieres continuar
+  utter_fuera_de_alcance:
+  - text: Lo siento, no logro entender, puedes decirlo de otra manera?
+  utter_continuar:
+  - text: Deseas continuar con el pedido?
+  utter_goodbye:
+  - text: Hasta pronto, que disfrutes tu delicioso pedido :D
+  utter_horarios:
+  - text: Nuestro horario de atención es de Lunes a Domingo de 16:00hrs a 23:30hrs.
+  utter_ubicados:
+  - text: Nos encontraras en Av. chatevolution 1111, Temuco, Araucanía
+  utter_sushi_veganos:
+  - text: Si, contamos con sushis veganos en nuestros menús.
+  utter_iamabot:
+  - text: Soy un CHATBOT, Creado por "CHAT EVOLUTION" para ayudar a realizar tu pedido
+      de manera mas ágil
+  utter_medios_pago:
+  - text: Aceptamos pagos en EFECTIVO Y TARJETAS ya sean crédito o débito.
+  utter_contribucion:
+  - text: Te puedo ayudar con algunas preguntas frecuentes y tomar tu pedido.
+  utter_reiniciar:
+  - text: Comencemos con el pedido nuevamente
+  utter_entregas:
+  - text: Tenemos reparto para la mayoría de Temuco, a excepción de periferia norte,
+      el valor del delivery tiene un valor agregado de 700 CLP "Base", y un valor
+      agregado dependiendo el lugar
+  utter_pedidos_locos:
+  - text: Lo siento, no trabajamos con esos alimentos
+  utter_eliminar_ingredientes:
+  - text: Eliminar ingredientes del menú no tiene costo adicional.
+actions:
+- utter_greet
+- utter_enviar_carta
+- utter_prom_2
+- utter_derivar_persona
+- utter_sugerir
+- utter_confirmar_pedido
+- utter_derivar_pedido
+- utter_nuevo_pedido
+- utter_ask_promocion_elegida
+- utter_ask_hacer_modificaciones
+- utter_ask_modificaciones
+- utter_ask_entrega_producto
+- utter_ask_metodo_pago
+- utter_slots_values
+- utter_continuacion
+- utter_fuera_de_alcance
+- utter_continuar
+- utter_goodbye
+- utter_horarios
+- utter_ubicados
+- utter_sushi_veganos
+- utter_iamabot
+- utter_medios_pago
+- utter_contribucion
+- utter_reiniciar
+- utter_entregas
+- utter_pedidos_locos
+- utter_eliminar_ingredientes
+- action_pause_conversation
+- utter_prom_3
 forms:
-- pedido_sushi
+- pedido_final
