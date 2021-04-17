@@ -136,6 +136,28 @@
 - la [b 36](promocion_elegida)
 - quiero la [27a] y [36b]
 - [36a] y [36b]
+- quiero la promocion [45A](promocion_elegida)
+- quiero la promocion [45B](promocion_elegida)
+- la [45a](promocion_elegida)
+- la [45b](promocion_elegida)
+- quiero la [45a](promocion_elegida)
+- quiero la [A45](promocion_elegida)
+- quiero la [B45](promocion_elegida)
+- la [a 45](promocion_elegida)
+- la [b 45](promocion_elegida)
+- quiero la [45a] y [45b]
+- [45a] y [45b]
+- quiero la promocion [54 bocados](promocion_elegida)
+- quiero la promocion [72 bocados](promocion_elegida)
+- la [54 bocados](promocion_elegida)
+- la [72 bocados](promocion_elegida)
+- quiero la [54 bocados](promocion_elegida)
+- quiero la [54 bocados](promocion_elegida)
+- quiero la [72 bocados](promocion_elegida)
+- la [54 bocados](promocion_elegida)
+- la [72 bocados](promocion_elegida)
+- quiero la [54 bocados](promocion_elegida) y [72 bocados](promocion_elegida)
+- [54 bocados](promocion_elegida) y [72 bocados](promocion_elegida)
 
 ## intent:modificacion
 - al teri roll quitar queso
