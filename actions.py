@@ -1,12 +1,3 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/core/actions/#custom-actions/
-
-
-# This is a simple example for a custom action which utters "Hello World!"
-
 from typing import Any, Text, Dict, List, Union
 
 from rasa_sdk import Action, Tracker
@@ -16,23 +7,7 @@ from rasa_sdk.forms import FormAction
 
 class Formulario_Pedido(FormAction):
     def name(self):
-        # horario_inicio = datetime.strptime("00:10:00", "%X").time()
-        # horaio_salida = datetime.strptime("00:59:00", "%X").time()
-        # hora_act = datetime.now().time()
-
-        # if horaio_salida > horario_inicio:
-        #     if hora_act > horario_inicio and hora_act < horaio_salida:
-        #         return "pedido_final"
-        #     else:
-        #         dispatcher.utter_message(template="utter_greet")
-        #         return []
-        # else:
-        #     if hora_act > horario_inicio or hora_act < horaio_salida:
         return "pedido_final"
-            # else:
-            #     dispatcher.utter_message(template="utter_greet")
-            #     return []
-        # return "pedido_final"
     @staticmethod
     def required_slots(tracker):
         if tracker.get_slot("hacer_modificaciones")==True:
@@ -67,16 +42,6 @@ class Formulario_Pedido(FormAction):
         tracker: Tracker,
         domain:Dict[Text, Any]) -> List[Dict]:
         return[]
-
-#class ActionResumeConversation(Action):
-
-#    def name(self):
-#        return "action_resume_conversation"
-
-#    async def run(self, dispatcher, tracker, domain) -> List[EventType]:
-#        logger.info(f"Resumed the conversation")
-        
-#        return [ConversationResumed()]
 
 class ActionPauseConversation(Action):
     """Pause a conversation"""
