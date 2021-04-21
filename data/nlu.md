@@ -152,10 +152,7 @@
 - la [54 bocados](promocion_elegida)
 - la [72 bocados](promocion_elegida)
 - quiero la [54 bocados](promocion_elegida)
-- quiero la [54 bocados](promocion_elegida)
 - quiero la [72 bocados](promocion_elegida)
-- la [54 bocados](promocion_elegida)
-- la [72 bocados](promocion_elegida)
 - quiero la [54 bocados](promocion_elegida) y [72 bocados](promocion_elegida)
 - [54 bocados](promocion_elegida) y [72 bocados](promocion_elegida)
 
@@ -175,15 +172,22 @@
 - jorge tellier 349 torre A 304
 - Antifil 0957 Santa Rosa
 - 4 oriente 349 torre D 104
-- pablo neruda 520
+- luis durand 349 torre A 302
+- av. pablo neruda 520
 - españa 2213
 - mallorca 3421
+- las encinas 03295
+- av. luis durand 24312
+- av. Pedro De Valdivia 2394
+- av .pablo neruda 01215
+- javiera carrera 01530 
 - Kalfutray 02560
 - Ignacio de Loyola 1803 labranza
 - quiero retirarlo en el [local](entrega_producto)
 - En el [local](entrega_producto)
 - retiro [local](entrega_producto)
 - [local](entrega_producto)
+- las encinas [02132](promocion_elegida)
 
 ## intent:forma_pago
 - pago en [efectivo](metodo_pago)

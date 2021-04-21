@@ -63,7 +63,7 @@ responses:
     text: 'Promoción familiar:'
   utter_prom_fam_2:
   - image: http://imgfz.com/i/obB16s4.jpeg
-    text: 'Promoción familiar:'
+    text: 'Promoción familiar 2:'
   utter_derivar_persona:
   - text: Sera derivado para hablar con nuestro personal encargado. espero haberte
       ayudado. saludos!!
