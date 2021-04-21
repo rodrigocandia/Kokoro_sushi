@@ -176,6 +176,7 @@
 - av. pablo neruda 520
 - españa 2213
 - mallorca 3421
+- las encinas 02132
 - las encinas 03295
 - av. luis durand 24312
 - av. Pedro De Valdivia 2394
@@ -187,7 +188,7 @@
 - En el [local](entrega_producto)
 - retiro [local](entrega_producto)
 - [local](entrega_producto)
-- las encinas [02132](promocion_elegida)
+
 
 ## intent:forma_pago
 - pago en [efectivo](metodo_pago)

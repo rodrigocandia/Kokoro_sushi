@@ -48,22 +48,20 @@ responses:
   - text: Hola! Bienvenido a KOKORO SUSHI DELIVERY, Hablas con MAX tu asistente personal,
       ¿en que te puedo ayudar?
   utter_enviar_carta:
-  - text: 'Claro, aquí están nuestras exquisitas promociones:'
-  utter_prom_2:
   - image: http://imgfz.com/i/IvK2HVG.jpeg
-    text: 'Promoción para 2 Personas:'
-  utter_prom_3:
+    text: 'Claro, aquí están nuestras exquisitas promociones:'
+  utter_prom_2:
   - image: http://imgfz.com/i/YSKXBOL.jpeg
-    text: 'Promoción para 3 Personas:'
-  utter_prom_4:
+    text: 'Promoción de 36 bocados:'
+  utter_prom_3:
   - image: http://imgfz.com/i/rB5Itfs.jpeg
-    text: 'Promoción para 3 Personas:'
-  utter_prom_fam:
+    text: 'Promoción de 45 bocados:'
+  utter_prom_4:
   - image: http://imgfz.com/i/vLaZHJn.jpeg
-    text: 'Promoción familiar:'
-  utter_prom_fam_2:
+    text: 'Promoción de 54 bocados:'
+  utter_prom_fam:
   - image: http://imgfz.com/i/obB16s4.jpeg
-    text: 'Promoción familiar 2:'
+    text: 'Promoción familiar:'
   utter_derivar_persona:
   - text: Sera derivado para hablar con nuestro personal encargado. espero haberte
       ayudado. saludos!!
@@ -161,6 +159,5 @@ actions:
 - utter_prom_3
 - utter_prom_4
 - utter_prom_fam
-- utter_prom_fam_2
 forms:
 - pedido_final

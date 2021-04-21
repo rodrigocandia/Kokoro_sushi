@@ -59,7 +59,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -88,7 +87,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -108,7 +106,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -133,7 +130,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -158,7 +154,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -183,7 +178,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -208,7 +202,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -233,7 +226,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -258,7 +250,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
@@ -282,7 +273,6 @@
   - utter_prom_3
   - utter_prom_4
   - utter_prom_fam
-  - utter_prom_fam_2
 * seleccionar_pedido
   - pedido_final
   - form{"name":"pedido_final"}
