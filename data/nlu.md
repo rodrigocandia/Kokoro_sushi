@@ -254,21 +254,37 @@
 - 7000
 - A 27
 - A27
-- A
 
 ## synonym:27B
 - b 27
-- B
 - 7500
 - B 27
 
 ## synonym:36A
 - a 36
-- 10000
+- 9000
 - A 36
 - A36
 
 ## synonym:36B
 - b 36
-- 10500
+- 9990
 - B 36
+
+## synonym:45A
+- a 45
+- 10500
+- A 45
+- A45
+
+## synonym:45B
+- b 45
+- 11500
+- b 45
+- b45
+
+## synonym:54 bocados
+- 13000
+
+## synonym:72 bocados
+- 18500
