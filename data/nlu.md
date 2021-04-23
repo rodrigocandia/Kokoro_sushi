@@ -216,7 +216,9 @@
 - se puede pagar con tarjeta?
 - se puede pagar con transferencia?
 - solo aceptan efectivo?
+- Cuál es el medio de pago
 - aceptan tarjetas?
+- Cómo es el medio de pago?
 - cuales son las formas de pago?
 
 ## intent:ubicados
