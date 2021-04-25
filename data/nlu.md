@@ -114,6 +114,10 @@
 - puedo cambiar un ingrediente?
 
 ## intent:seleccionar_pedido
+- quiero la [Pizza Kokoro](promocion_elegida)
+- quiero la [Pizza Campestre](promocion_elegida)
+- [Pizza Kokoro](promocion_elegida)
+- [Pizza Campestre](promocion_elegida)
 - quiero la promocion [27A](promocion_elegida)
 - quiero la promocion [27B](promocion_elegida)
 - la [27a](promocion_elegida)
@@ -236,6 +240,21 @@
 - tienen sushi sin carne?
 - cuentan con sushis sin carne?
 
+## intent:pedir_pizza
+- me puedes enviar las pizzas
+- tiene pizzas?
+- que pizzas tiene?
+- pizzas?
+- que precio tienen las pizzas?
+- cuanto valen las pizzas?
+
+## intent:mas_promociones
+- Tiene más promociones
+- tiene otras promociones
+- tiene otros sushis
+- solo son esas promos?
+- son solo esos sushis?
+
 ## intent:bot_challenge
 - eres un bot?
 - eres una persona?
@@ -291,3 +310,11 @@
 
 ## synonym:72 bocados
 - 18500
+
+## synonym:Pizza Kokoro
+- pizza de 9000
+- pizza kokoro
+
+## synonym:Pizza Campestre
+- pizza de 9500
+- pizza campestre

@@ -6,6 +6,7 @@ intents:
 - despedida
 - horario_atencion
 - pedir_pedido
+- pedir_pizza
 - solicitar_pedido
 - bot_challenge
 - seleccionar_pedido
@@ -28,6 +29,7 @@ intents:
 - verdadero
 - falso
 - eliminar_ingredientes
+- mas_promociones
 entities:
 - promocion_elegida
 - metodo_pago
@@ -126,6 +128,16 @@ responses:
   - text: Lo siento, no trabajamos con esos alimentos
   utter_eliminar_ingredientes:
   - text: Eliminar ingredientes del menú no tiene costo adicional.
+  utter_mas_promociones:
+  - text: Solo contamos con esas promociones por ahora
+  utter_pedir_pizza:
+  - text: estas son nuestras exquisitas pizzas
+  utter_pizza_kokoro:
+  - image: http://imgfz.com/i/VJDkmON.jpeg
+    text: Pizza Kokoro
+  utter_pizza_Campestre:
+  - image: http://imgfz.com/i/xrfzTYs.jpeg
+    text: Pizza Campestre
 actions:
 - utter_greet
 - utter_enviar_carta
@@ -159,5 +171,9 @@ actions:
 - utter_prom_3
 - utter_prom_4
 - utter_prom_fam
+- utter_mas_promociones
+- utter_pedir_pizza
+- utter_pizza_kokoro
+- utter_pizza_Campestre
 forms:
 - pedido_final

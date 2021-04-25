@@ -50,6 +50,37 @@
 * ubicados
   - utter_ubicados
 
+## pedir pizza con saludo
+* saludar
+  - utter_greet
+* pedir_pizza
+  - utter_pedir_pizza
+  - utter_pizza_kokoro
+  - utter_pizza_Campestre
+
+## pedir pizza
+* pedir_pizza
+  - utter_pedir_pizza
+  - utter_pizza_kokoro
+  - utter_pizza_Campestre
+
+## historia buena pizza
+* saludar
+  - utter_greet
+* pedir_pizza
+  - utter_pedir_pizza
+  - utter_pizza_kokoro
+  - utter_pizza_Campestre
+* seleccionar_pedido
+  - pedido_final
+  - form{"name":"pedido_final"}
+  - form{"name":null}
+  - utter_slots_values
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
 ## historia buena
 * saludar
   - utter_greet
@@ -314,3 +345,7 @@
 * inter_persona
   - utter_derivar_persona
   - action_pause_conversation
+
+# pedir mas promociones
+* mas_promociones
+  - utter_mas_promociones
