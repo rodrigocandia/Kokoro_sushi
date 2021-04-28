@@ -112,6 +112,8 @@
 - puedo realizar modificaciones?
 - puedo hacer cambios a las promociones?
 - puedo cambiar un ingrediente?
+- puedo hacer cambios
+- puedo cambiar   por  ?
 
 ## intent:seleccionar_pedido
 - quiero la [Pizza Kokoro](promocion_elegida)
