@@ -91,7 +91,7 @@ responses:
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_metodo_pago:
-  - text: Su pago se realizara con; "EFECTIVO", "TARJETA"
+  - text: Su pago se realizara con; "EFECTIVO", "TARJETA" o "TRANSFERENCIA".
   utter_slots_values:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
       \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
@@ -105,7 +105,7 @@ responses:
   utter_goodbye:
   - text: Hasta pronto, que disfrutes tu delicioso pedido :D
   utter_horarios:
-  - text: Nuestro horario de atención es de Lunes a Domingo de 15:00 hrs hasta 22:00
+  - text: Nuestro horario de atención es de Lunes a Domingo de 16:00 hrs hasta 22:30.
       hrs.
   utter_ubicados:
   - text: Nos encontraras en Av. Pablo Neruda 02130, Temuco, Araucanía
@@ -115,15 +115,14 @@ responses:
   - text: Soy un CHATBOT, Creado por "CHAT EVOLUTION" para ayudar a realizar tu pedido
       de manera mas ágil
   utter_medios_pago:
-  - text: Aceptamos pagos en EFECTIVO Y TARJETAS ya sean crédito o débito.
+  - text: Aceptamos pagos en EFECTIVO, TARJETAS "crédito o débito" Y TRANSFERENCIAS.
   utter_contribucion:
   - text: Te puedo ayudar con algunas preguntas frecuentes y tomar tu pedido.
   utter_reiniciar:
   - text: Comencemos con el pedido nuevamente
   utter_entregas:
-  - text: Tenemos reparto para la mayoría de Temuco, a excepción de periferia norte,
-      el valor del delivery tiene un valor agregado de 700 CLP "Base", y un valor
-      agregado dependiendo el lugar
+  - text: Tenemos reparto para la mayoría de Temuco, el valor del delivery tiene un valor BASE de 1.000 CLP, y un valor
+      agregado dependiendo el sector.
   utter_pedidos_locos:
   - text: Lo siento, no trabajamos con esos alimentos
   utter_eliminar_ingredientes:
@@ -131,7 +130,7 @@ responses:
   utter_mas_promociones:
   - text: Solo contamos con esas promociones por ahora
   utter_pedir_pizza:
-  - text: estas son nuestras exquisitas pizzas
+  - text: Estas son nuestras exquisitas pizzas
   utter_pizza_kokoro:
   - image: http://imgfz.com/i/VJDkmON.jpeg
     text: Pizza Kokoro
