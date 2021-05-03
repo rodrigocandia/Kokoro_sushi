@@ -122,37 +122,26 @@
 - [Pizza Campestre](promocion_elegida)
 - quiero la promocion [27A](promocion_elegida)
 - quiero la promocion [27B](promocion_elegida)
-- la [27a](promocion_elegida)
-- la [27b](promocion_elegida)
-- quiero la [27a](promocion_elegida)
-- quiero la [A27](promocion_elegida)
-- quiero la [B27](promocion_elegida)
-- la [a 27](promocion_elegida)
-- la [b 27](promocion_elegida)
-- quiero la [27a] y [27b]
-- [27a] y [27b]
+- la [27A](promocion_elegida)
+- la [27B](promocion_elegida)
+- quiero la [27A] y [27B]
+- [27A] y [27B]
 - quiero la promocion [36A](promocion_elegida)
 - quiero la promocion [36B](promocion_elegida)
-- la [36a](promocion_elegida)
-- la [36b](promocion_elegida)
-- quiero la [36a](promocion_elegida)
-- quiero la [A36](promocion_elegida)
-- quiero la [B36](promocion_elegida)
-- la [a 36](promocion_elegida)
-- la [b 36](promocion_elegida)
-- quiero la [27a] y [36b]
-- [36a] y [36b]
+- la [36A](promocion_elegida)
+- la [36B](promocion_elegida)
+- quiero la [36A](promocion_elegida)
+- quiero la [36B](promocion_elegida)
+- quiero la [27A] y [36B]
+- [36A] y [36B]
 - quiero la promocion [45A](promocion_elegida)
 - quiero la promocion [45B](promocion_elegida)
-- la [45a](promocion_elegida)
-- la [45b](promocion_elegida)
-- quiero la [45a](promocion_elegida)
-- quiero la [A45](promocion_elegida)
-- quiero la [B45](promocion_elegida)
-- la [a 45](promocion_elegida)
-- la [b 45](promocion_elegida)
-- quiero la [45a] y [45b]
-- [45a] y [45b]
+- la [45A](promocion_elegida)
+- la [45B](promocion_elegida)
+- quiero la [45A](promocion_elegida)
+- quiero la [45B](promocion_elegida)
+- quiero la [45A] y [45B]
+- [45A] y [45B]
 - quiero la promocion [54 bocados](promocion_elegida)
 - quiero la promocion [72 bocados](promocion_elegida)
 - la [54 bocados](promocion_elegida)
@@ -275,43 +264,55 @@
 
 ## synonym:27A
 - a 27
-- 7000
+- a27
+- de 7000
 - A 27
 - A27
 
 ## synonym:27B
 - b 27
-- 7500
+- b27
+- de 7500
 - B 27
+- B27
 
 ## synonym:36A
 - a 36
-- 9000
+- a36 
+- de 9000
 - A 36
 - A36
 
 ## synonym:36B
 - b 36
-- 9990
+- b36
+- de 9990
 - B 36
+- B36
 
 ## synonym:45A
 - a 45
-- 10500
+- a45
+- de 10500
 - A 45
 - A45
 
 ## synonym:45B
 - b 45
-- 11500
-- b 45
 - b45
+- de 11500
+- B 45
+- B45
 
 ## synonym:54 bocados
+- de 13000
 - 13000
+- de 54
 
 ## synonym:72 bocados
+- de 18500
 - 18500
+- de 72
 
 ## synonym:Pizza Kokoro
 - pizza de 9000
