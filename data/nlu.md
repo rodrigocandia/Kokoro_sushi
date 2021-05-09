@@ -58,6 +58,7 @@
 - en que me puedes ayudar?
 - cuales son tus funcionalidades
 - que puedes hacer?
+- me puedes ayudar a pedir sushi?
 - y para que sirves?
 
 ## intent:horario_atencion
