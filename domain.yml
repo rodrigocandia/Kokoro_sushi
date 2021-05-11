@@ -121,7 +121,7 @@ responses:
   utter_reiniciar:
   - text: Comencemos con el pedido nuevamente
   utter_entregas:
-  - text: Tenemos reparto para la mayoría de Temuco, el valor del delivery tiene un valor BASE de 1.000 CLP, y un valor
+  - text: Tenemos reparto para Temuco y sus alrededores, el valor del delivery tiene un valor BASE de 1.000 CLP, y un valor
       agregado dependiendo el sector.
   utter_pedidos_locos:
   - text: Lo siento, no trabajamos con esos alimentos
