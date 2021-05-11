@@ -38,6 +38,7 @@
 ## intent:sugerencia
 - que tal son los sushi?
 - son ricos?
+- que tal son?
 - vale la pena comprar?
 - son buenos los sushis?
 
