@@ -86,10 +86,10 @@ responses:
       title: NO
     text: ¿Desea modificar el pedido?
   utter_ask_modificaciones:
-  - text: ¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener
-      un valor agregado de 700 CLP aproximados. /n - Modificacion de carne y verdura
-      SIN TIENE COSTO /n - Cambiar a envoltorios fritos SIN CONSTO /n - Eliminar ingredientes
-      SIN COSTO
+  - text: "¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener
+      un valor agregado de 700 CLP aproximados. \n - Modificacion de carne y verdura
+      SIN TIENE COSTO \n - Cambiar a envoltorios fritos SIN CONSTO \n - Eliminar ingredientes
+      SIN COSTO"
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_metodo_pago:
