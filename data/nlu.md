@@ -203,6 +203,27 @@
 - con [transferencia](metodo_pago)
 - [transferencia](metodo_pago)
 
+## intent:agregar_salsas
+- todas menos agridulce
+- solo salsa de soya y agridulce
+- solo soya
+- todo menos salsa picante
+- agridulce y soya
+- soya agridulce wasabi jengibre
+- todas las salsas
+- todas
+
+## intent:numero_telefono
+- +56975723956
+- +56947547250
+- 985213732
+- 933185784
+- +56947896214
+- 945876187
+- 741532489
+- 471452321
+- +569 47245894
+
 ## intent:despedida
 - hasta pronto
 - chao
