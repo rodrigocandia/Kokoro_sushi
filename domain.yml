@@ -41,6 +41,10 @@ slots:
     type: unfeaturized
   metodo_pago:
     type: unfeaturized
+  numero_telefono:
+    type: unfeaturized
+  agregar_salsas:
+    type: unfeaturized
   modificaciones:
     type: unfeaturized
   promocion_elegida:
@@ -92,6 +96,10 @@ responses:
       SIN COSTO"
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
+  utter_ask_numero_telefono:
+  - text: Indicanos tu numero de contacto para garantizar la entrega del producto
+  utter_ask_agregar_salsas:
+  - text: "¿Qué salsas desea agregar?\n contamos con:\n- Salsa de Soya\n- Salsa Agridulce\n- Salsa Picante\n- Salsa de Jengibre\n- Salsa Wasabi"
   utter_ask_metodo_pago:
   - text: Su pago se realizara con; "EFECTIVO", "TARJETA" o "TRANSFERENCIA".
   utter_slots_values:
