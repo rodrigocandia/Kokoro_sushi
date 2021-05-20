@@ -97,7 +97,7 @@ responses:
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_numero_telefono:
-  - text: Indicanos tu numero de contacto para garantizar la entrega del producto
+  - text: Indicanos tu numero de contacto para garantizar la entrega del producto.
   utter_ask_agregar_salsas:
   - text: "¿Qué salsas desea agregar?\n contamos con:\n- Salsa de Soya\n- Salsa Agridulce\n- Salsa Picante\n- Salsa de Jengibre\n- Salsa Wasabi"
   utter_ask_metodo_pago:
@@ -105,9 +105,9 @@ responses:
   utter_slots_values:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
       \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Forma de pago: {metodo_pago}"
+      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n - Forma de pago: {metodo_pago}"
   utter_continuacion:
-  - text: Lo siento, no lo entiendo bien, quieres continuar
+  - text: Lo siento, no lo entiendo bien, quieres continuar.
   utter_fuera_de_alcance:
   - text: Lo siento, no logro entender, ¿puedes decirlo de otra manera?
   utter_continuar:
@@ -118,29 +118,29 @@ responses:
   - text: Nuestro horario de atención es de Lunes a Domingo de 16:00 hrs hasta 22:30.
       hrs.
   utter_ubicados:
-  - text: Nos encontraras en Av. Pablo Neruda 02130, Temuco, Araucanía
+  - text: Nos encontraras en Av. Pablo Neruda 02130, Temuco, Araucanía.
   utter_sushi_veganos:
   - text: Si, contamos con sushis veganos en nuestros menús.
   utter_iamabot:
   - text: Soy un CHATBOT, Creado por "CHAT EVOLUTION" para ayudar a realizar tu pedido
-      de manera mas ágil
+      de manera mas ágil.
   utter_medios_pago:
   - text: Aceptamos pagos en EFECTIVO, TARJETAS "crédito o débito" Y TRANSFERENCIAS.
   utter_contribucion:
   - text: Te puedo ayudar con algunas preguntas frecuentes y tomar tu pedido.
   utter_reiniciar:
-  - text: Comencemos con el pedido nuevamente
+  - text: Comencemos con el pedido nuevamente.
   utter_entregas:
   - text: Tenemos reparto para Temuco y sus alrededores, el valor del delivery tiene
       un valor BASE de 1.000 CLP, y un valor agregado dependiendo el sector.
   utter_pedidos_locos:
-  - text: Lo siento, no trabajamos con esos alimentos
+  - text: Lo siento, no trabajamos con esos alimentos.
   utter_eliminar_ingredientes:
   - text: Eliminar ingredientes del menú no tiene costo adicional.
   utter_mas_promociones:
-  - text: Solo contamos con esas promociones por ahora
+  - text: Solo contamos con esas promociones por ahora.
   utter_pedir_pizza:
-  - text: Estas son nuestras exquisitas pizzas
+  - text: Estas son nuestras exquisitas pizzas.
   utter_pizza_kokoro:
   - image: http://imgfz.com/i/VJDkmON.jpeg
     text: Pizza Kokoro
