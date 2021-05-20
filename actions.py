@@ -32,10 +32,10 @@ class Formulario_Pedido(FormAction):
                 self.from_entity(entity="entrega_producto"),
             ],
             "numero_telefono":[
-                self.from_text(entity="numero_telefono"),
+                self.from_text(intent="numero_telefono"),
             ],
             "agregar_salsas":[
-                self.from_text(entity="agregar_salsas"),
+                self.from_text(intent="agregar_salsas"),
             ],
             "metodo_pago":[
                 self.from_entity(entity="metodo_pago"),

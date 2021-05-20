@@ -30,22 +30,24 @@ intents:
 - falso
 - eliminar_ingredientes
 - mas_promociones
+- agregar_salsas
+- numero_telefono
 entities:
 - promocion_elegida
 - metodo_pago
 - entrega_producto
 slots:
+  agregar_salsas:
+    type: unfeaturized
   entrega_producto:
     type: unfeaturized
   hacer_modificaciones:
     type: unfeaturized
   metodo_pago:
     type: unfeaturized
-  numero_telefono:
-    type: unfeaturized
-  agregar_salsas:
-    type: unfeaturized
   modificaciones:
+    type: unfeaturized
+  numero_telefono:
     type: unfeaturized
   promocion_elegida:
     type: unfeaturized
@@ -90,22 +92,24 @@ responses:
       title: NO
     text: ¿Desea modificar el pedido?
   utter_ask_modificaciones:
-  - text: "¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener
-      un valor agregado de 700 CLP aproximados. \n - Modificacion de carne y verdura
-      SIN TIENE COSTO \n - Cambiar a envoltorios fritos SIN CONSTO \n - Eliminar ingredientes
-      SIN COSTO"
+  - text: "¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener\
+      \ un valor agregado de 700 CLP aproximados. \n - Modificacion de carne y verdura\
+      \ SIN TIENE COSTO \n - Cambiar a envoltorios fritos SIN CONSTO \n - Eliminar\
+      \ ingredientes SIN COSTO"
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_numero_telefono:
   - text: Indicanos tu numero de contacto para garantizar la entrega del producto.
   utter_ask_agregar_salsas:
-  - text: "¿Qué salsas desea agregar?\n contamos con:\n- Salsa de Soya\n- Salsa Agridulce\n- Salsa Picante\n- Salsa de Jengibre\n- Salsa Wasabi"
+  - text: "¿Qué salsas desea agregar?\n contamos con:\n- Salsa de Soya\n- Salsa Agridulce\n\
+      - Salsa Picante\n- Salsa de Jengibre\n- Salsa Wasabi"
   utter_ask_metodo_pago:
   - text: Su pago se realizara con; "EFECTIVO", "TARJETA" o "TRANSFERENCIA".
   utter_slots_values:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
       \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n - Forma de pago: {metodo_pago}"
+      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n\
+      \ - Forma de pago: {metodo_pago}"
   utter_continuacion:
   - text: Lo siento, no lo entiendo bien, quieres continuar.
   utter_fuera_de_alcance:
@@ -160,6 +164,8 @@ actions:
 - utter_ask_hacer_modificaciones
 - utter_ask_modificaciones
 - utter_ask_entrega_producto
+- utter_ask_numero_telefono
+- utter_ask_agregar_salsas
 - utter_ask_metodo_pago
 - utter_slots_values
 - utter_continuacion
