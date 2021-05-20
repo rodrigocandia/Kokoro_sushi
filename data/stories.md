@@ -72,8 +72,8 @@
   - utter_pizza_kokoro
   - utter_pizza_Campestre
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -91,8 +91,8 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -102,8 +102,8 @@
 
 ## historia_buena_directo_al_pedido
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -119,8 +119,8 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -138,13 +138,13 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
 * entregas
   - utter_entregas
   - utter_continuar
 * confirmacion
-  - pedido_final
+  - pedido_sushi
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -162,13 +162,13 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
 * pedidos_locos
   - utter_pedidos_locos
   - utter_continuar
 * confirmacion
-  - pedido_final
+  - pedido_sushi
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -186,13 +186,13 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
 * medios_pago
   - utter_medios_pago
   - utter_continuar
 * confirmacion
-  - pedido_final
+  - pedido_sushi
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -210,13 +210,13 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
 * ubicados
   - utter_ubicados
   - utter_continuar
 * confirmacion
-  - pedido_final
+  - pedido_sushi
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -234,13 +234,13 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
 * horario_atencion
   - utter_horarios
   - utter_continuar
 * confirmacion
-  - pedido_final
+  - pedido_sushi
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -258,13 +258,13 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
 * sugerencia
   - utter_sugerir
   - utter_continuar
 * confirmacion
-  - pedido_final
+  - pedido_sushi
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -282,12 +282,12 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
 * fuera_de_alcance
   - utter_continuacion
 * confirmacion
-  - pedido_final
+  - pedido_sushi
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -305,8 +305,8 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
 * inter_persona
   - utter_derivar_persona
   - action_pause_conversation
@@ -323,8 +323,8 @@
   - utter_prom_4
   - utter_prom_fam
 * seleccionar_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido
@@ -332,8 +332,8 @@
   - utter_reiniciar
   - action_restart
   - utter_nuevo_pedido
-  - pedido_final
-  - form{"name":"pedido_final"}
+  - pedido_sushi
+  - form{"name":"pedido_sushi"}
   - form{"name":null}
   - utter_slots_values
   - utter_confirmar_pedido

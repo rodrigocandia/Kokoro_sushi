@@ -7,7 +7,7 @@ from rasa_sdk.forms import FormAction
 
 class Formulario_Pedido(FormAction):
     def name(self):
-        return "pedido_final"
+        return "pedido_sushi"
     @staticmethod
     def required_slots(tracker):
         if tracker.get_slot("hacer_modificaciones")==True:
