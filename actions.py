@@ -11,9 +11,9 @@ class Formulario_Pedido(FormAction):
     @staticmethod
     def required_slots(tracker):
         if tracker.get_slot("hacer_modificaciones")==True:
-            return["promocion_elegida", "hacer_modificaciones", "modificaciones", "entrega_producto", "metodo_pago"]
+            return["promocion_elegida", "hacer_modificaciones", "modificaciones", "entrega_producto", "numero_telefono", "agregar_salsas","metodo_pago"]
         else:
-            return["promocion_elegida", "hacer_modificaciones", "entrega_producto", "metodo_pago"]
+            return["promocion_elegida", "hacer_modificaciones", "entrega_producto", "numero_telefono", "agregar_salsas", "metodo_pago"]
     
     def slot_mappings(self)-> Dict[Text, Union[Dict, List[Dict]]]:
         return {
