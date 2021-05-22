@@ -114,7 +114,8 @@ responses:
   utter_slots_values_pizza:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
       \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Forma de pago: {metodo_pago}"
+      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Forma de pago:\
+      \ {metodo_pago}"
   utter_continuacion:
   - text: Lo siento, no lo entiendo bien, quieres continuar.
   utter_fuera_de_alcance:
@@ -195,6 +196,7 @@ actions:
 - utter_pedir_pizza
 - utter_pizza_kokoro
 - utter_pizza_Campestre
+- utter_slots_values_pizza
 forms:
 - pedido_sushi
 - pedido_pizza

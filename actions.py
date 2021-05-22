@@ -53,23 +53,13 @@ class Formulario_Pizza(FormAction):
     def name(self):
         return "pedido_pizza"
     @staticmethod
-    def required_slots(tracker):
-        if tracker.get_slot("hacer_modificaciones")==True:
-            return["promocion_elegida", "hacer_modificaciones", "modificaciones", "entrega_producto", "numero_telefono", "metodo_pago"]
-        else:
-            return["promocion_elegida", "hacer_modificaciones", "entrega_producto", "numero_telefono", "metodo_pago"]
-    
+    def required_slots(tracker: Tracker) -> List[Text]:
+       return ["promocion_elegida", "entrega_producto", "numero_telefono", "metodo_pago"]
+        
     def slot_mappings(self)-> Dict[Text, Union[Dict, List[Dict]]]:
         return {
             "promocion_elegida": [
-                self.from_entity(entity="promocion_elegida_pizza"),
-            ],
-            "hacer_modificaciones": [ 
-                self.from_intent(intent="verdadero", value=True),
-                self.from_intent(intent="falso", value=False),                          
-            ],
-            "modificaciones": [
-                self.from_text(intent="modificacion"), 
+                self.from_entity(entity="promocion_elegida"),
             ],
             "entrega_producto": [                
                 self.from_text(intent="destino"),
