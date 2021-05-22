@@ -94,13 +94,13 @@ responses:
     text: ¿Desea modificar el pedido?
   utter_ask_modificaciones:
   - text: "¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener\
-      \ un valor agregado de 700 CLP aproximados. \n - Modificacion de carne y verdura\
-      \ SIN TIENE COSTO \n - Cambiar a envoltorios fritos SIN CONSTO \n - Eliminar\
+      \ un valor agregado de 700 CLP aproximados. \n - Modificación de carne a verdura\
+      \ SIN COSTO \n - Cambiar a envoltorios fritos SIN COSTO \n - Eliminar\
       \ ingredientes SIN COSTO"
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_numero_telefono:
-  - text: Indicanos tu numero de contacto para garantizar la entrega del producto.
+  - text: Indicanos tu NUMERO DE CONTACTO. para garantizar la entrega del producto.
   utter_ask_agregar_salsas:
   - text: "¿Qué salsas desea agregar?\n contamos con:\n- Salsa de Soya\n- Salsa Agridulce\n\
       - Salsa Picante\n- Salsa de Jengibre\n- Salsa Wasabi"
@@ -112,8 +112,7 @@ responses:
       \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n\
       \ - Forma de pago: {metodo_pago}"
   utter_slots_values_pizza:
-  - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
-      \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
+  - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Lugar de entrega:\
       \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Forma de pago:\
       \ {metodo_pago}"
   utter_continuacion:
