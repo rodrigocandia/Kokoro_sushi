@@ -71,11 +71,11 @@
   - utter_pedir_pizza
   - utter_pizza_kokoro
   - utter_pizza_Campestre
-* seleccionar_pedido
-  - pedido_sushi
-  - form{"name":"pedido_sushi"}
+* seleccionar_pedido_pizza
+  - pedido_pizza
+  - form{"name":"pedido_pizza"}
   - form{"name":null}
-  - utter_slots_values
+  - utter_slots_values_pizza
   - utter_confirmar_pedido
 * confirmacion
   - utter_derivar_pedido

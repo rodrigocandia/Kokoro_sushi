@@ -122,11 +122,13 @@
 - puedo hacer cambios
 - puedo cambiar   por  ?
 
-## intent:seleccionar_pedido
+## intent:seleccionar_pedido_pizza
 - quiero la [Pizza Kokoro](promocion_elegida)
 - quiero la [Pizza Campestre](promocion_elegida)
 - [Pizza Kokoro](promocion_elegida)
 - [Pizza Campestre](promocion_elegida)
+
+## intent:seleccionar_pedido
 - quiero la promocion [27A](promocion_elegida)
 - quiero la promocion [27B](promocion_elegida)
 - la [27A](promocion_elegida)
