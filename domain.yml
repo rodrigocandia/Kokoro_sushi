@@ -52,6 +52,8 @@ slots:
     type: unfeaturized
   promocion_elegida:
     type: unfeaturized
+  palitos:
+    type: unfeaturized 
 responses:
   utter_greet:
   - text: Hola! Bienvenido a KOKORO SUSHI DELIVERY, Hablas con MAX tu asistente personal,
