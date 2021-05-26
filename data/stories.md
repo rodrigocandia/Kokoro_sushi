@@ -160,7 +160,7 @@
   - action_pause_conversation
 
 ## historia con preguntas 4
-* seleccionar_pedido
+* seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
 * ubicados
@@ -252,7 +252,6 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-_______________________
 ## historia buena
 * saludar
   - utter_greet

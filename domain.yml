@@ -51,10 +51,10 @@ slots:
     type: unfeaturized
   numero_telefono:
     type: unfeaturized
+  palitos:
+    type: unfeaturized
   promocion_elegida:
     type: unfeaturized
-  palitos:
-    type: unfeaturized 
 responses:
   utter_greet:
   - text: Hola! Bienvenido a KOKORO SUSHI DELIVERY, Hablas con MAX tu asistente personal,
@@ -98,8 +98,8 @@ responses:
   utter_ask_modificaciones:
   - text: "¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener\
       \ un valor agregado de 700 CLP aproximados. \n - Modificación de carne a verdura\
-      \ SIN COSTO \n - Cambiar a envoltorios fritos SIN COSTO \n - Eliminar\
-      \ ingredientes SIN COSTO"
+      \ SIN COSTO \n - Cambiar a envoltorios fritos SIN COSTO \n - Eliminar ingredientes\
+      \ SIN COSTO"
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_numero_telefono:
@@ -114,8 +114,8 @@ responses:
   utter_slots_values:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
       \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n - palitos: {palitos}\n\
-      \ - Forma de pago: {metodo_pago}"
+      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n\
+      \ - palitos: {palitos}\n - Forma de pago: {metodo_pago}"
   utter_slots_values_pizza:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Lugar de entrega:\
       \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Forma de pago:\
@@ -201,6 +201,7 @@ actions:
 - utter_pizza_kokoro
 - utter_pizza_Campestre
 - utter_slots_values_pizza
+- utter_ask_palitos
 forms:
 - pedido_sushi
 - pedido_pizza
