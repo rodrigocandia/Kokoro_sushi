@@ -33,6 +33,7 @@ intents:
 - mas_promociones
 - agregar_salsas
 - numero_telefono
+- palitos
 entities:
 - promocion_elegida
 - metodo_pago
@@ -106,12 +107,14 @@ responses:
   utter_ask_agregar_salsas:
   - text: "¿Qué salsas desea agregar?\n contamos con:\n- Salsa de Soya\n- Salsa Agridulce\n\
       - Salsa Picante\n- Salsa de Jengibre\n- Salsa Wasabi"
+  utter_ask_palitos:
+  - text: ¿Cuantos palitos?
   utter_ask_metodo_pago:
   - text: Su pago se realizara con; "EFECTIVO", "TARJETA" o "TRANSFERENCIA".
   utter_slots_values:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
       \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n\
+      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n - palitos: {palitos}\n\
       \ - Forma de pago: {metodo_pago}"
   utter_slots_values_pizza:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Lugar de entrega:\

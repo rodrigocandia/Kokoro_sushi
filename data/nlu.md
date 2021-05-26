@@ -215,6 +215,14 @@
 - todas las salsas
 - todas
 
+## intent:palitos
+- palitos con ayuda
+- 4 palitos
+- 3 palitos
+- 2 palitos con ayuda
+- sin palitos
+- 5 palitos
+
 ## intent:numero_telefono
 - +56975723956
 - +56947547250
