@@ -222,6 +222,12 @@
 - 2 palitos con ayuda
 - sin palitos
 - 5 palitos
+- 3
+- 2
+- no quiero palitos
+- 4
+- 5
+- 6
 
 ## intent:numero_telefono
 - +56975723956
