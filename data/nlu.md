@@ -224,6 +224,9 @@
 - 5 palitos
 - 3
 - 2
+- 4 con ayuda
+- 2 con ayuda y 2 sin ayuda
+- 3 con ayuda
 - no quiero palitos
 - 4
 - 5
