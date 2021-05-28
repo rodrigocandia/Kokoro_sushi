@@ -83,9 +83,9 @@ class Formulario_Pizza(FormAction):
         domain:Dict[Text, Any]) -> List[Dict]:
         return[]
 
-class Formulario_Handrolls(FormAction):
+class Formulario_Handroll(FormAction):
     def name(self):
-        return "pedido_handrolls"
+        return "pedido_handroll"
     @staticmethod
     def required_slots(tracker):
         if tracker.get_slot("hacer_modificaciones")==True:

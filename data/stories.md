@@ -70,12 +70,204 @@
 * pedir_handroll
   - utter_pedir_handroll
   - utter_promo_handroll
-  - utter_pizza_Campestre
 
 ## pedir handroll
 * pedir_handroll
   - utter_pedir_handroll
   - utter_promo_handroll
+
+## historia buena handroll
+* saludar
+  - utter_greet
+* pedir_handroll
+  - utter_pedir_handroll
+  - utter_promo_handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia buena handroll 2
+* pedir_handroll
+  - utter_pedir_handroll
+  - utter_promo_handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia buena handroll 3
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+
+## historia con preguntas 1 handroll
+* saludar
+  - utter_greet
+* pedir_handroll
+  - utter_pedir_handroll
+  - utter_promo_handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+* entregas
+  - utter_entregas
+  - utter_continuar
+* confirmacion
+  - pedido_handroll
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia con preguntas 2 handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+* pedidos_locos
+  - utter_pedidos_locos
+  - utter_continuar
+* confirmacion
+  - pedido_handroll
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia con preguntas 3 handroll
+* saludar
+  - utter_greet
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+* medios_pago
+  - utter_medios_pago
+  - utter_continuar
+* confirmacion
+  - pedido_handroll
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia con preguntas 4 handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+* ubicados
+  - utter_ubicados
+  - utter_continuar
+* confirmacion
+  - pedido_handroll
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia con preguntas 5 handroll
+* pedir_handroll
+  - utter_pedir_handroll
+  - utter_promo_handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+* horario_atencion
+  - utter_horarios
+  - utter_continuar
+* confirmacion
+  - pedido_handroll
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia con preguntas 6 handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+* sugerencia
+  - utter_sugerir
+  - utter_continuar
+* confirmacion
+  - pedido_handroll
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia para continuar handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+* fuera_de_alcance
+  - utter_continuacion
+* confirmacion
+  - pedido_handroll
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
+
+## historia pedido malo derivar persona handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+* inter_persona
+  - utter_derivar_persona
+  - action_pause_conversation
+  - action_deactivate_form
+  - form{"name":null}
+
+## historia para volver a iniciar form handroll
+* seleccionar_pedido_handroll
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* negar
+  - utter_reiniciar
+  - action_restart
+  - utter_nuevo_pedido
+  - pedido_handroll
+  - form{"name":"pedido_handroll"}
+  - form{"name":null}
+  - utter_slots_values_handroll
+  - utter_confirmar_pedido
+* confirmacion
+  - utter_derivar_pedido
+  - action_pause_conversation
 
 ## historia buena pizza
 * saludar
@@ -120,7 +312,7 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-## historia con preguntas 1 
+## historia con preguntas 1 pizza
 * saludar
   - utter_greet
 * seleccionar_pedido_pizza
@@ -138,7 +330,11 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-## historia con preguntas 2
+## historia con preguntas 2 pizza
+* pedir_pizza
+  - utter_pedir_pizza
+  - utter_pizza_kokoro
+  - utter_pizza_Campestre
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -154,7 +350,7 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-## historia con preguntas 3
+## historia con preguntas 3 pizza
 * saludar
   - utter_greet
 * seleccionar_pedido_pizza
@@ -172,7 +368,7 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-## historia con preguntas 4
+## historia con preguntas 4 pizza
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -188,7 +384,7 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-## historia con preguntas 5
+## historia con preguntas 5 pizza
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -204,7 +400,11 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-## historia con preguntas 6
+## historia con preguntas 6 pizza
+* pedir_pizza
+  - utter_pedir_pizza
+  - utter_pizza_kokoro
+  - utter_pizza_Campestre
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -220,7 +420,7 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-## historia para continuar
+## historia para continuar pizza
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -235,7 +435,7 @@
   - utter_derivar_pedido
   - action_pause_conversation
 
-## historia pedido malo derivar persona
+## historia pedido malo derivar persona pizza
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -245,7 +445,7 @@
   - action_deactivate_form
   - form{"name":null}
 
-## historia para volver a iniciar form
+## historia para volver a iniciar form pizza
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}

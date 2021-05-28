@@ -122,6 +122,10 @@ responses:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Lugar de entrega:\
       \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Forma de pago:\
       \ {metodo_pago}"
+  utter_slots_values_handroll:
+  - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
+      \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
+      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n - Forma de pago: {metodo_pago}"
   utter_continuacion:
   - text: Lo siento, no lo entiendo bien, quieres continuar.
   utter_fuera_de_alcance:
@@ -212,3 +216,4 @@ actions:
 forms:
 - pedido_sushi
 - pedido_pizza
+- pedido_handroll
