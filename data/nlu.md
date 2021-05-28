@@ -387,3 +387,9 @@
 ## synonym:Pizza Campestre
 - pizza de 9500
 - pizza campestre
+
+## synonym:2x3000
+- 2 por 3000
+
+## synonym:3x5000
+- 3 por 5000

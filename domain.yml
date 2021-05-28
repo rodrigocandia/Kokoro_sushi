@@ -125,7 +125,8 @@ responses:
   utter_slots_values_handroll:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
       \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n - Forma de pago: {metodo_pago}"
+      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n\
+      \ - Forma de pago: {metodo_pago}"
   utter_continuacion:
   - text: Lo siento, no lo entiendo bien, quieres continuar.
   utter_fuera_de_alcance:
@@ -171,7 +172,7 @@ responses:
   - text: Estas son nuestras exquisitas promociones de handrolls.
   utter_promo_handroll:
   - image: http://imgfz.com/i/obY64uT.jpeg
-    text: 
+    text:
 actions:
 - utter_greet
 - utter_enviar_carta
@@ -213,6 +214,9 @@ actions:
 - utter_pizza_Campestre
 - utter_slots_values_pizza
 - utter_ask_palitos
+- utter_slots_values_handroll
+- utter_pedir_handroll
+- utter_promo_handroll
 forms:
 - pedido_sushi
 - pedido_pizza
