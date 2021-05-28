@@ -34,6 +34,8 @@ intents:
 - agregar_salsas
 - numero_telefono
 - palitos
+- seleccionar_pedido_handroll
+- pedir_handroll
 entities:
 - promocion_elegida
 - metodo_pago
@@ -161,6 +163,11 @@ responses:
   utter_pizza_Campestre:
   - image: http://imgfz.com/i/xrfzTYs.jpeg
     text: Pizza Campestre
+  utter_pedir_handroll:
+  - text: Estas son nuestras exquisitas promociones de handrolls.
+  utter_promo_handroll:
+  - image: http://imgfz.com/i/obY64uT.jpeg
+    text: 
 actions:
 - utter_greet
 - utter_enviar_carta

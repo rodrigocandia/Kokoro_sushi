@@ -128,6 +128,17 @@
 - [Pizza Kokoro](promocion_elegida)
 - [Pizza Campestre](promocion_elegida)
 
+## intent:seleccionar_pedido_handroll
+- quiero la [2x3000](promocion_elegida)
+- quiero la [3x5000](promocion_elegida)
+- quiero la [Handrolls Mixtos](promocion_elegida)
+- la [2x3000](promocion_elegida)
+- la [3x5000](promocion_elegida)
+- la [Handrolls Mixtos](promocion_elegida)
+- me da la promo [2x3000](promocion_elegida)
+- me da la promo [3x5000](promocion_elegida)
+- me da la promo [Handrolls Mixtos](promocion_elegida)
+
 ## intent:seleccionar_pedido
 - quiero la promocion [27A](promocion_elegida)
 - quiero la promocion [27B](promocion_elegida)
@@ -285,6 +296,14 @@
 - pizzas?
 - que precio tienen las pizzas?
 - cuanto valen las pizzas?
+
+## intent:pedir_handroll
+- me puedes enviar las promos de handroll
+- tiene handroll?
+- que handroll tiene?
+- handrolls?
+- que precio tienen las handrolls?
+- cuanto valen las handrolls?
 
 ## intent:mas_promociones
 - Tiene más promociones

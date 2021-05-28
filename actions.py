@@ -83,6 +83,50 @@ class Formulario_Pizza(FormAction):
         domain:Dict[Text, Any]) -> List[Dict]:
         return[]
 
+class Formulario_Handrolls(FormAction):
+    def name(self):
+        return "pedido_handrolls"
+    @staticmethod
+    def required_slots(tracker):
+        if tracker.get_slot("hacer_modificaciones")==True:
+            return["promocion_elegida", "hacer_modificaciones", "modificaciones", "entrega_producto", "numero_telefono", "agregar_salsas", "metodo_pago"]
+        else:
+            return["promocion_elegida", "hacer_modificaciones", "entrega_producto", "numero_telefono", "agregar_salsas", "metodo_pago"]
+ 
+    def slot_mappings(self)-> Dict[Text, Union[Dict, List[Dict]]]:
+        return {
+            "promocion_elegida": [
+                self.from_entity(entity="promocion_elegida"),
+            ],
+            "hacer_modificaciones": [ 
+                self.from_intent(intent="verdadero", value=True),
+                self.from_intent(intent="falso", value=False),                          
+            ],
+            "modificaciones": [
+                self.from_text(intent="modificacion"), 
+            ],
+            "entrega_producto": [                
+                self.from_text(intent="destino"),
+                self.from_entity(entity="entrega_producto"),
+            ],
+            "numero_telefono":[
+                self.from_text(intent="numero_telefono"),
+            ],
+            "agregar_salsas":[
+                self.from_text(intent="agregar_salsas"),
+            ],
+            "metodo_pago":[
+                self.from_entity(entity="metodo_pago"),
+            ],
+        }
+
+    def submit(
+        self,
+        dispatcher:CollectingDispatcher,
+        tracker: Tracker,
+        domain:Dict[Text, Any]) -> List[Dict]:
+        return[]
+
 class ActionPauseConversation(Action):
     """Pause a conversation"""
 

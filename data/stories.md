@@ -64,6 +64,19 @@
   - utter_pizza_kokoro
   - utter_pizza_Campestre
 
+## pedir handroll con saludo
+* saludar
+  - utter_greet
+* pedir_handroll
+  - utter_pedir_handroll
+  - utter_promo_handroll
+  - utter_pizza_Campestre
+
+## pedir handroll
+* pedir_handroll
+  - utter_pedir_handroll
+  - utter_promo_handroll
+
 ## historia buena pizza
 * saludar
   - utter_greet
