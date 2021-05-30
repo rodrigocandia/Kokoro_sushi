@@ -169,10 +169,8 @@ responses:
   - image: http://imgfz.com/i/xrfzTYs.jpeg
     text: Pizza Campestre
   utter_pedir_handroll:
-  - text: Estas son nuestras exquisitas promociones de handrolls.
-  utter_promo_handroll:
   - image: http://imgfz.com/i/obY64uT.jpeg
-    text:
+    text: Estas son nuestras exquisitas promociones de handrolls.
 actions:
 - utter_greet
 - utter_enviar_carta
@@ -216,7 +214,6 @@ actions:
 - utter_ask_palitos
 - utter_slots_values_handroll
 - utter_pedir_handroll
-- utter_promo_handroll
 forms:
 - pedido_sushi
 - pedido_pizza

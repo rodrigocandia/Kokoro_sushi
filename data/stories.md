@@ -69,19 +69,16 @@
   - utter_greet
 * pedir_handroll
   - utter_pedir_handroll
-  - utter_promo_handroll
-
+ 
 ## pedir handroll
 * pedir_handroll
   - utter_pedir_handroll
-  - utter_promo_handroll
 
 ## historia buena handroll
 * saludar
   - utter_greet
 * pedir_handroll
   - utter_pedir_handroll
-  - utter_promo_handroll
 * seleccionar_pedido_handroll
   - pedido_handroll
   - form{"name":"pedido_handroll"}
@@ -95,7 +92,6 @@
 ## historia buena handroll 2
 * pedir_handroll
   - utter_pedir_handroll
-  - utter_promo_handroll
 * seleccionar_pedido_handroll
   - pedido_handroll
   - form{"name":"pedido_handroll"}
@@ -123,7 +119,6 @@
   - utter_greet
 * pedir_handroll
   - utter_pedir_handroll
-  - utter_promo_handroll
 * seleccionar_pedido_handroll
   - pedido_handroll
   - form{"name":"pedido_handroll"}
@@ -192,7 +187,6 @@
 ## historia con preguntas 5 handroll
 * pedir_handroll
   - utter_pedir_handroll
-  - utter_promo_handroll
 * seleccionar_pedido_handroll
   - pedido_handroll
   - form{"name":"pedido_handroll"}
