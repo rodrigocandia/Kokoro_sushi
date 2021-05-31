@@ -107,6 +107,7 @@
 - puedo hablar una persona?
 - quiero conversar con una persona
 - quiero una persona
+- stop
 - necesito hablar con un humano
 
 ## intent:preguntar_modificar_pedido
