@@ -376,11 +376,13 @@
 - de 13000
 - 13000
 - de 54
+- la 54
 
 ## synonym:72 bocados
 - de 18500
 - 18500
 - de 72
+- la 72
 
 ## synonym:Pizza Kokoro
 - pizza de 9000
