@@ -111,15 +111,15 @@
 - necesito hablar con un humano
 
 ## intent:preguntar_modificar_pedido
-- puedo cambiar los ingredientes del sushi?
+- se puede cambiar los ingredientes del sushi?
 - puedo modificar algunos sushi?
 - pueden ser todos fritos?
 - puedo cambiar ingredientes?
-- puedo eliminar ingredientes?
+- se puede eliminar ingredientes?
 - quiero eliminar un ingrediente
-- quiero cambiar los ingredientes
+- deseo cambiar los ingredientes
 - puedo realizar modificaciones?
-- puedo hacer cambios a las promociones?
+- se puede hacer cambios a las promociones?
 - puedo cambiar un ingrediente?
 - puedo hacer cambios
 - puedo cambiar   por  ?
@@ -311,6 +311,7 @@
 - Tiene más promociones
 - tiene otras promociones
 - tiene otros sushis
+- tiene mas?
 - solo son esas promos?
 - son solo esos sushis?
 
