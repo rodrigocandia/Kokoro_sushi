@@ -34,6 +34,7 @@
 - cuanto vale el reparto?
 - cuando sale el reparto?
 - que valor tiene el reparto?
+- hacen reparto para       ?
 
 ## intent:sugerencia
 - que tal son los sushi?
