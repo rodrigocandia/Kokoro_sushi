@@ -91,6 +91,7 @@
 - que dia es hoy?
 - como esta el clima?
 - que dia es mañana?
+- esta lloviendo?
 - cuentame un chiste
 - eso no es lo que quiero hacer
 - no eres de ayuda
@@ -208,15 +209,14 @@
 
 
 ## intent:forma_pago
-- pago en [efectivo](metodo_pago)
-- [efectivo](metodo_pago)
-- Pagaré en [efectivo](metodo_pago)
-- cash [efectivo](metodo_pago)
-- con [tarjeta](metodo_pago)
-- con debito [tarjeta](metodo_pago)
-- con credito [tarjeta](metodo_pago)
-- con [transferencia](metodo_pago)
-- [transferencia](metodo_pago)
+- pago en [Efectivo](metodo_pago)
+- [Efectivo](metodo_pago)
+- Pagaré en [Efectivo](metodo_pago)
+- con [Efectivo](metodo_pago)
+- con [Tarjeta](metodo_pago)
+- [Tarjeta](metodo_pago)
+- con [Transferencia](metodo_pago)
+- [Transferencia](metodo_pago)
 
 ## intent:agregar_salsas
 - todas menos agridulce
@@ -330,6 +330,18 @@
 ## intent:falso
 - FALSO
 - falso
+
+## synonym:Efectivo
+- cash
+- dinero
+- efectivo
+
+## synonym:Tarjeta
+- debito
+- credito
+- Debito
+- Credito
+- tarjeta
 
 ## synonym:27A
 - a 27
