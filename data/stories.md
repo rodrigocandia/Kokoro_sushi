@@ -54,15 +54,19 @@
 * saludar
   - utter_greet
 * pedir_pizza
-  - utter_pedir_pizza
+  - utter_pizza_margarita
+  - utter_pizza_napolitana
   - utter_pizza_kokoro
   - utter_pizza_Campestre
+  - utter_pizza_del_mar
 
 ## pedir pizza
 * pedir_pizza
-  - utter_pedir_pizza
+  - utter_pizza_margarita
+  - utter_pizza_napolitana
   - utter_pizza_kokoro
   - utter_pizza_Campestre
+  - utter_pizza_del_mar
 
 ## pedir handroll con saludo
 * saludar
@@ -267,9 +271,11 @@
 * saludar
   - utter_greet
 * pedir_pizza
-  - utter_pedir_pizza
+  - utter_pizza_margarita
+  - utter_pizza_napolitana
   - utter_pizza_kokoro
   - utter_pizza_Campestre
+  - utter_pizza_del_mar
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -282,9 +288,11 @@
 
 ## historia buena 3 pizza
 * pedir_pizza
-  - utter_pedir_pizza
+  - utter_pizza_margarita
+  - utter_pizza_napolitana
   - utter_pizza_kokoro
   - utter_pizza_Campestre
+  - utter_pizza_del_mar
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -326,9 +334,11 @@
 
 ## historia con preguntas 2 pizza
 * pedir_pizza
-  - utter_pedir_pizza
+  - utter_pizza_margarita
+  - utter_pizza_napolitana
   - utter_pizza_kokoro
   - utter_pizza_Campestre
+  - utter_pizza_del_mar
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}
@@ -396,9 +406,11 @@
 
 ## historia con preguntas 6 pizza
 * pedir_pizza
-  - utter_pedir_pizza
+  - utter_pizza_margarita
+  - utter_pizza_napolitana
   - utter_pizza_kokoro
   - utter_pizza_Campestre
+  - utter_pizza_del_mar
 * seleccionar_pedido_pizza
   - pedido_pizza
   - form{"name":"pedido_pizza"}

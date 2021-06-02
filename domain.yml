@@ -160,14 +160,21 @@ responses:
   - text: Eliminar ingredientes del menú no tiene costo adicional.
   utter_mas_promociones:
   - text: Solo contamos con esas promociones por ahora.
-  utter_pedir_pizza:
-  - text: Estas son nuestras exquisitas pizzas.
   utter_pizza_kokoro:
   - image: http://imgfz.com/i/VJDkmON.jpeg
-    text: Pizza Kokoro
+    text: "Estas son nuestras exquisitas pizzas.\n Pizza Kokoro"
   utter_pizza_Campestre:
   - image: http://imgfz.com/i/xrfzTYs.jpeg
     text: Pizza Campestre
+  utter_pizza_margarita:
+  - image: http://imgfz.com/i/IyQpBce.jpeg
+    text: Pizza Margarita
+  utter_pizza_del_mar:
+  - image: http://imgfz.com/i/vA2ue3h.jpeg
+    text: Pizza del Mar
+  utter_pizza_napolitana:
+  - image: http://imgfz.com/i/v14lL8y.jpeg
+    text: Pizza Napolitana
   utter_pedir_handroll:
   - image: http://imgfz.com/i/obY64uT.jpeg
     text: Estas son nuestras exquisitas promociones de handrolls.
