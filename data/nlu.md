@@ -130,6 +130,12 @@
 - quiero la [Pizza Campestre](promocion_elegida)
 - [Pizza Kokoro](promocion_elegida)
 - [Pizza Campestre](promocion_elegida)
+- quiero la [Pizza del mar](promocion_elegida)
+- quiero la [Pizza Napolitana](promocion_elegida)
+- quiero la [Pizza Margarita](promocion_elegida)
+- [Pizza del mar](promocion_elegida)
+- [Pizza Napolitana](promocion_elegida)
+- [Pizza Margarita](promocion_elegida)
 
 ## intent:seleccionar_pedido_handroll
 - quiero la [2x3000](promocion_elegida)
@@ -388,12 +394,14 @@
 ## synonym:54 bocados
 - de 13000
 - 13000
+- 54 piezas
 - de 54
 - la 54
 
 ## synonym:72 bocados
 - de 18500
 - 18500
+- 72 piezas
 - de 72
 - la 72
 
@@ -404,6 +412,17 @@
 ## synonym:Pizza Campestre
 - pizza de 9500
 - pizza campestre
+
+## synonym:Pizza del mar
+- pizza del mar
+
+## synonym:Pizza Napolitana
+- pizza de 8500
+- pizza napolitana
+
+## synonym:Pizza Margarita
+- pizza de 8000
+- pizza margarita
 
 ## synonym:2x3000
 - 2 por 3000

@@ -101,7 +101,11 @@ responses:
   - text: "¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener\
       \ un valor agregado de 700 CLP aproximados. \n - Modificación de carne a verdura\
       \ SIN COSTO \n - Cambiar a envoltorios fritos SIN COSTO \n - Eliminar ingredientes\
-      \ SIN COSTO\n - Eliminar Nori, tiene un valor agregado de 1000 CLP\n \n Ingredientes:\n - Champiñon\n - Palmito\n - Morrón\n - Palta\n - Ciboulette\n - cebollin\n - Pollo\n - Camarón\n - Salmón\n - Pulpo\n - Jaiba\n - Carne\n - Pepino ensalada\n - Cebolla caramelizada\n - Huevo\n - Choclo\n \n ENVOLTORIOS\n - Env. Salmon\n - Palta\n - Queso crema\n - Sésamo\n - Ciboulette\n - Panko\n - Nory"
+      \ SIN COSTO\n - Eliminar Nori, tiene un valor agregado de 1000 CLP\n INGREDIENTES:\n\
+      \ - Champiñon\n - Palmito\n - Morrón\n - Palta\n - Ciboulette\n - cebollin\n\
+      \ - Pollo\n - Camarón\n - Salmón\n - Pulpo\n - Jaiba\n - Carne\n - Pepino ensalada\n\
+      \ - Cebolla caramelizada\n - Huevo\n - Choclo\n ENVOLTORIOS\n - Env. Salmon\n\
+      \ - Palta\n - Queso crema\n - Sésamo\n - Ciboulette\n - Panko\n - Nory"
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_numero_telefono:
@@ -162,13 +166,13 @@ responses:
   - text: Solo contamos con esas promociones por ahora.
   utter_pizza_kokoro:
   - image: http://imgfz.com/i/VJDkmON.jpeg
-    text: "Estas son nuestras exquisitas pizzas.\n Pizza Kokoro"
+    text: Pizza Kokoro
   utter_pizza_Campestre:
   - image: http://imgfz.com/i/xrfzTYs.jpeg
     text: Pizza Campestre
   utter_pizza_margarita:
   - image: http://imgfz.com/i/IyQpBce.jpeg
-    text: Pizza Margarita
+    text: "Estas son nuestras exquisitas pizzas.\n Pizza Margarita"
   utter_pizza_del_mar:
   - image: http://imgfz.com/i/vA2ue3h.jpeg
     text: Pizza del Mar
@@ -177,7 +181,8 @@ responses:
     text: Pizza Napolitana
   utter_pedir_handroll:
   - image: http://imgfz.com/i/obY64uT.jpeg
-    text: Estas son nuestras exquisitas promociones de handrolls.
+    text: "Estas son nuestras exquisitas promociones de handrolls.\n - Le recordamos\
+      \ que la promoción de 2x300 solo tiene delivery por la compra de 2 o más promociones"
 actions:
 - utter_greet
 - utter_enviar_carta
@@ -214,13 +219,15 @@ actions:
 - utter_prom_4
 - utter_prom_fam
 - utter_mas_promociones
-- utter_pedir_pizza
 - utter_pizza_kokoro
 - utter_pizza_Campestre
 - utter_slots_values_pizza
 - utter_ask_palitos
 - utter_slots_values_handroll
 - utter_pedir_handroll
+- utter_pizza_margarita
+- utter_pizza_del_mar
+- utter_pizza_napolitana
 forms:
 - pedido_sushi
 - pedido_pizza
