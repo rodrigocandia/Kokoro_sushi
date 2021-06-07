@@ -325,6 +325,7 @@
 - eres un bot?
 - eres una persona?
 - eres un humano?
+- eres un chatbot?
 - quien eres?
 - estoy hablando con un robot?
 - estoy hablando con una persona?
