@@ -40,6 +40,8 @@
 - que tal son los sushi?
 - son ricos?
 - que tal son?
+- que tal son las pizzas?
+- son ricos los handrolls?
 - vale la pena comprar?
 - son buenos los sushis?
 
@@ -60,6 +62,7 @@
 - en que me puedes ayudar?
 - cuales son tus funcionalidades
 - que puedes hacer?
+- que haces?
 - me puedes ayudar a pedir sushi?
 - y para que sirves?
 
@@ -108,6 +111,7 @@
 - puedo hablar una persona?
 - quiero conversar con una persona
 - quiero una persona
+- deja de hablar
 - stop
 - necesito hablar con un humano
 
@@ -278,6 +282,8 @@
 - se puede pagar con transferencia?
 - solo aceptan efectivo?
 - Cuál es el medio de pago
+- aceptan transferencias?
+- se pueden hacer transferencias?
 - aceptan tarjetas?
 - Cómo es el medio de pago?
 - cuales son las formas de pago?
