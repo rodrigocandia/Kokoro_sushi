@@ -46,16 +46,17 @@
 - son buenos los sushis?
 
 ## intent:solicitar_pedido
-- quiero realizar un pedido
+- Quiero realizar un pedido
 - kiero sushi
+- Quiero pedir sushi
 - ke precio tienen los sushi
-- me puedes ayudar a realizar un pedido
+- Me puedes ayudar a realizar un pedido
 - Que promos tiene disponible para hoy??
 - Puedo ver las promociones
 - Buenas noches, quería hacer un pedido de sushi
-- quiero sushi
-- me puedes enviar las promociones
-- me envias la carta
+- Quiero sushi
+- Me puedes enviar las promociones
+- Me envias la carta
 - Necesito una promocion
 
 ## intent:contribucion
@@ -245,15 +246,10 @@
 - 2 palitos con ayuda
 - sin palitos
 - 5 palitos
-- 3
-- 2
 - 4 con ayuda
 - 2 con ayuda y 2 sin ayuda
 - 3 con ayuda
 - no quiero palitos
-- 4
-- 5
-- 6
 
 ## intent:numero_telefono
 - +56975723956
