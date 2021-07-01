@@ -307,6 +307,7 @@
 ## intent:pedir_pizza
 - me puedes enviar las pizzas
 - tiene pizzas?
+- Quiero pedir pizzas
 - que pizzas tiene?
 - pizzas?
 - que precio tienen las pizzas?
@@ -315,6 +316,7 @@
 ## intent:pedir_handroll
 - me puedes enviar las promos de handroll
 - tiene handroll?
+- quiero pedir handroll
 - que handroll tiene?
 - handrolls?
 - que precio tienen las handrolls?
@@ -325,6 +327,7 @@
 - tiene otras promociones
 - tiene otros sushis
 - tiene mas?
+- solo eso venden?
 - solo son esas promos?
 - son solo esos sushis?
 
