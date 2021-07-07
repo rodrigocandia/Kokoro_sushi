@@ -109,7 +109,7 @@ responses:
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_numero_telefono:
-  - text: Indícanos tu NUMERO DE CONTACTO. para garantizar la entrega del producto.
+  - text: "Indícanos tu NUMERO DE CONTACTO. para garantizar la entrega del producto.\n Favor Ingresar su numero de contacto con el codigo de Area (+56)\n Ejemplo: +56912345678"
   utter_ask_agregar_salsas:
   - text: "¿Qué salsas desea agregar?\n contamos con:\n- Salsa de Soya\n- Salsa Agridulce\n\
       - Salsa Picante\n- Salsa de Jengibre\n- Salsa Wasabi"
