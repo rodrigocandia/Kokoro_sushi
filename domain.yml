@@ -104,7 +104,7 @@ responses:
       \ SIN COSTO\n - Eliminar Nori, tiene un valor agregado de 1000 CLP\n \nINGREDIENTES:\n\
       \ - Champiñon\n - Palmito\n - Morrón\n - Palta\n - Ciboulette\n - cebollin\n\
       \ - Pollo\n - Camarón\n - Salmón\n - Pulpo\n - Jaiba\n - Carne\n - Pepino ensalada\n\
-      \ - Cebolla caramelizada\n - Huevo\n - Choclo\n \nENVOLTORIOS\n - Env. Salmon\n\
+      \ - Cebolla caramelizada\n - Huevo\n - Choclo\n \n \nENVOLTORIOS\n - Env. Salmon\n\
       \ - Palta\n - Queso crema\n - Sésamo\n - Ciboulette\n - Panko\n - Nory"
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
@@ -116,7 +116,7 @@ responses:
   utter_ask_palitos:
   - text: "¿Cuantos palitos desea?\n Favor de ingresar (Nº) palitos\n EJEMPLO: 3 palitos"
   utter_ask_metodo_pago:
-  - text: Su pago se realizara con; "EFECTIVO", "TARJETA" o "TRANSFERENCIA".
+  - text: 'Su pago se realizara con: "EFECTIVO", "TARJETA" o "TRANSFERENCIA".'
   utter_slots_values:
   - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
       \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\

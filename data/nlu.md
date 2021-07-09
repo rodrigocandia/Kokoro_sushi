@@ -48,7 +48,9 @@
 ## intent:solicitar_pedido
 - Quiero realizar un pedido
 - kiero sushi
+- Sushi
 - Quiero pedir sushi
+- Puedo pedir Sushi?
 - ke precio tienen los sushi
 - Me puedes ayudar a realizar un pedido
 - Que promos tiene disponible para hoy??
