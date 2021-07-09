@@ -69,13 +69,13 @@ responses:
     text: 'Promoción de 36 bocados:'
   utter_prom_3:
   - image: http://imgfz.com/i/rB5Itfs.jpeg
-    text: 'Promoción de 45 bocados:'
+    text: "Promoción de 45 bocados: \nAl elegir esta promoción terminar con la palabra bocados\n EJEMPLO: 45 bocados"
   utter_prom_4:
   - image: http://imgfz.com/i/vLaZHJn.jpeg
-    text: 'Promoción de 54 bocados:'
+    text: "Promoción de 54 bocados: \nAl elegir esta promoción terminar con la palabra bocados\n EJEMPLO: 54 bocados"
   utter_prom_fam:
   - image: http://imgfz.com/i/obB16s4.jpeg
-    text: 'Promoción familiar:'
+    text: "Promoción de 72 bocados: \nAl elegir esta promoción terminar con la palabra bocados\n EJEMPLO: 72 bocados"
   utter_derivar_persona:
   - text: Sera derivado para hablar con nuestro personal encargado. espero haberte
       ayudado. saludos!!
@@ -180,7 +180,7 @@ responses:
   - image: http://imgfz.com/i/v14lL8y.jpeg
     text: Pizza Napolitana
   utter_pedir_handroll:
-  - image: http://imgfz.com/i/obY64uT.jpeg
+  - image: http://imgfz.com/i/rSebBxj.jpeg
     text: "Estas son nuestras exquisitas promociones de handrolls.\n - Le recordamos\
       \ que la promoción de 2x300 solo tiene delivery por la compra de 2 o más promociones"
 actions:

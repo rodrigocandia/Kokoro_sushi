@@ -412,6 +412,8 @@
 ## synonym:72 bocados
 - de 18500
 - 18500
+- familiar
+- Familiar
 - 72 piezas
 - de 72
 - la 72
