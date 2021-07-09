@@ -100,8 +100,8 @@ responses:
   utter_ask_modificaciones:
   - text: "¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener\
       \ un valor agregado de 700 CLP aproximados. \n - Modificación de carne a verdura\
-      \ SIN COSTO \n - Cambiar a envoltorios fritos SIN COSTO \n - Eliminar ingredientes\
-      \ SIN COSTO\n - Eliminar Nori, tiene un valor agregado de 1000 CLP\n \nINGREDIENTES:\n\
+      \ (SIN COSTO) \n - Cambiar a envoltorios fritos (SIN COSTO) \n - Eliminar ingredientes\
+      \ (SIN COSTO)\n - Eliminar Nori, tiene un valor agregado de (1000 CLP)\n \nINGREDIENTES:\n\
       \ - Champiñon\n - Palmito\n - Morrón\n - Palta\n - Ciboulette\n - cebollin\n\
       \ - Pollo\n - Camarón\n - Salmón\n - Pulpo\n - Jaiba\n - Carne\n - Pepino ensalada\n\
       \ - Cebolla caramelizada\n - Huevo\n - Choclo\n \n \nENVOLTORIOS\n - Env. Salmon\n\

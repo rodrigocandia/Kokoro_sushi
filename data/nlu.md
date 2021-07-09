@@ -121,6 +121,7 @@
 ## intent:preguntar_modificar_pedido
 - se puede cambiar los ingredientes del sushi?
 - puedo modificar algunos sushi?
+- puedo hacer cambios?
 - pueden ser todos fritos?
 - puedo cambiar ingredientes?
 - se puede eliminar ingredientes?
