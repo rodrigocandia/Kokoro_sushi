@@ -69,7 +69,7 @@ responses:
     text: 'Promoción de 36 bocados:'
   utter_prom_3:
   - image: http://imgfz.com/i/rB5Itfs.jpeg
-    text: "Promoción de 45 bocados: \nAl elegir esta promoción terminar con la palabra bocados\n EJEMPLO: 45 bocados"
+    text: "Promoción de 45 bocados:"
   utter_prom_4:
   - image: http://imgfz.com/i/vLaZHJn.jpeg
     text: "Promoción de 54 bocados: \nAl elegir esta promoción terminar con la palabra bocados\n EJEMPLO: 54 bocados"

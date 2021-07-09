@@ -410,6 +410,7 @@
 - 13000
 - 54 piezas
 - de 54
+- 54
 - la 54
 
 ## synonym:72 bocados
@@ -419,6 +420,7 @@
 - Familiar
 - 72 piezas
 - de 72
+- 72
 - la 72
 
 ## synonym:Pizza Kokoro
