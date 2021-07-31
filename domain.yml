@@ -1,66 +1,126 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
 session_config:
   session_expiration_time: 120
   carry_over_slots_to_new_session: true
 intents:
-- saludar
-- despedida
-- horario_atencion
-- pedir_pedido
-- pedir_pizza
-- solicitar_pedido
-- bot_challenge
-- seleccionar_pedido
-- seleccionar_pedido_pizza
-- inter_persona
-- preguntar_modificar_pedido
-- confirmacion
-- ubicados
-- forma_pago
-- destino
-- modificaciones_pedido
-- pregunta_sushi_veganos
-- contribucion
-- fuera_de_alcance
-- modificacion
-- negar
-- sugerencia
-- medios_pago
-- entregas
-- pedidos_locos
-- verdadero
-- falso
-- eliminar_ingredientes
-- mas_promociones
-- agregar_salsas
-- numero_telefono
-- palitos
-- seleccionar_pedido_handroll
-- pedir_handroll
+- saludar:
+    use_entities: true
+- despedida:
+    use_entities: true
+- horario_atencion:
+    use_entities: true
+- pedir_pedido:
+    use_entities: true
+- pedir_pizza:
+    use_entities: true
+- solicitar_pedido:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- seleccionar_pedido:
+    use_entities: true
+- seleccionar_pedido_pizza:
+    use_entities: true
+- inter_persona:
+    use_entities: true
+- preguntar_modificar_pedido:
+    use_entities: true
+- confirmacion:
+    use_entities: true
+- ubicados:
+    use_entities: true
+- forma_pago:
+    use_entities: true
+- destino:
+    use_entities: true
+- modificaciones_pedido:
+    use_entities: true
+- pregunta_sushi_veganos:
+    use_entities: true
+- contribucion:
+    use_entities: true
+- fuera_de_alcance:
+    use_entities: true
+- modificacion:
+    use_entities: true
+- negar:
+    use_entities: true
+- sugerencia:
+    use_entities: true
+- medios_pago:
+    use_entities: true
+- entregas:
+    use_entities: true
+- pedidos_locos:
+    use_entities: true
+- verdadero:
+    use_entities: true
+- falso:
+    use_entities: true
+- eliminar_ingredientes:
+    use_entities: true
+- mas_promociones:
+    use_entities: true
+- agregar_salsas:
+    use_entities: true
+- numero_telefono:
+    use_entities: true
+- palitos:
+    use_entities: true
+- seleccionar_pedido_handroll:
+    use_entities: true
+- pedir_handroll:
+    use_entities: true
 entities:
 - promocion_elegida
 - metodo_pago
 - entrega_producto
 slots:
   agregar_salsas:
-    type: unfeaturized
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
   entrega_producto:
-    type: unfeaturized
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
   hacer_modificaciones:
-    type: unfeaturized
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
   metodo_pago:
-    type: unfeaturized
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
   modificaciones:
-    type: unfeaturized
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
   numero_telefono:
-    type: unfeaturized
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
   palitos:
-    type: unfeaturized
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
   promocion_elegida:
-    type: unfeaturized
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
 responses:
   utter_greet:
-  - text: Hola! Bienvenido a KOKORO SUSHI DELIVERY, Hablas con MAX tu asistente personal,
-      ¿en que te puedo ayudar?
+  - text: Hola! Bienvenido a KOKORO SUSHI DELIVERY, Hablas con MAX tu asistente personal, ¿en que te puedo ayudar?
   utter_enviar_carta:
   - image: http://imgfz.com/i/IvK2HVG.jpeg
     text: 'Claro, aquí están nuestras exquisitas promociones:'
@@ -69,23 +129,27 @@ responses:
     text: 'Promoción de 36 bocados:'
   utter_prom_3:
   - image: http://imgfz.com/i/rB5Itfs.jpeg
-    text: "Promoción de 45 bocados:"
+    text: 'Promoción de 45 bocados:'
   utter_prom_4:
   - image: http://imgfz.com/i/vLaZHJn.jpeg
-    text: "Promoción de 54 bocados: \nAl elegir esta promoción terminar con la palabra bocados\n EJEMPLO: 54 bocados"
+    text: |-
+      Promoción de 54 bocados: 
+      Al elegir esta promoción terminar con la palabra bocados
+       EJEMPLO: 54 bocados
   utter_prom_fam:
   - image: http://imgfz.com/i/obB16s4.jpeg
-    text: "Promoción de 72 bocados: \nAl elegir esta promoción terminar con la palabra bocados\n EJEMPLO: 72 bocados"
+    text: |-
+      Promoción de 72 bocados: 
+      Al elegir esta promoción terminar con la palabra bocados
+       EJEMPLO: 72 bocados
   utter_derivar_persona:
-  - text: Sera derivado para hablar con nuestro personal encargado. espero haberte
-      ayudado. saludos!!
+  - text: Sera derivado para hablar con nuestro personal encargado. espero haberte ayudado. saludos!!
   utter_sugerir:
   - text: Exquisitos, me atrevería de decir que son los mejores!!
   utter_confirmar_pedido:
   - text: ¿Su pedido esta correcto?
   utter_derivar_pedido:
-  - text: Su pedido sera derivado a nuestro personal; le señalara el tiempo estimado
-      para la entrega y el total a pagar. "GRACIAS POR PREFERIR KOKORO SUSHI DELIVERY"
+  - text: Su pedido sera derivado a nuestro personal; le señalara el tiempo estimado para la entrega y el total a pagar. "GRACIAS POR PREFERIR KOKORO SUSHI DELIVERY"
   utter_nuevo_pedido:
   - text: ¿Qué promoción desea?
   utter_ask_promocion_elegida:
@@ -98,39 +162,93 @@ responses:
       title: NO
     text: ¿Desea modificar el pedido?
   utter_ask_modificaciones:
-  - text: "¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener\
-      \ un valor agregado de 700 CLP aproximados. \n - Modificación de carne a verdura\
-      \ (SIN COSTO) \n - Cambiar a envoltorios fritos (SIN COSTO) \n - Eliminar ingredientes\
-      \ (SIN COSTO)\n - Eliminar Nori, tiene un valor agregado de (1000 CLP)\n \nINGREDIENTES:\n\
-      \ - Champiñon\n - Palmito\n - Morrón\n - Palta\n - Ciboulette\n - cebollin\n\
-      \ - Pollo\n - Camarón\n - Salmón\n - Pulpo\n - Jaiba\n - Carne\n - Pepino ensalada\n\
-      \ - Cebolla caramelizada\n - Huevo\n - Choclo\n \n \nENVOLTORIOS\n - Env. Salmon\n\
-      \ - Palta\n - Queso crema\n - Sésamo\n - Ciboulette\n - Panko\n - Nory"
+  - text: |-
+      ¿Qué desea modificar? Recuerde que un cambio de ingredientes puede tener un valor agregado de 700 CLP aproximados. 
+       - Modificación de carne a verdura (SIN COSTO) 
+       - Cambiar a envoltorios fritos (SIN COSTO) 
+       - Eliminar ingredientes (SIN COSTO)
+       - Eliminar Nori, tiene un valor agregado de (1000 CLP)
+       
+      INGREDIENTES:
+       - Champiñon
+       - Palmito
+       - Morrón
+       - Palta
+       - Ciboulette
+       - cebollin
+       - Pollo
+       - Camarón
+       - Salmón
+       - Pulpo
+       - Jaiba
+       - Carne
+       - Pepino ensalada
+       - Cebolla caramelizada
+       - Huevo
+       - Choclo
+       
+       
+      ENVOLTORIOS
+       - Env. Salmon
+       - Palta
+       - Queso crema
+       - Sésamo
+       - Ciboulette
+       - Panko
+       - Nory
   utter_ask_entrega_producto:
   - text: ¿Lugar de entrega del pedido?
   utter_ask_numero_telefono:
-  - text: "Indícanos tu NUMERO DE CONTACTO. para garantizar la entrega del producto.\n Favor Ingresar su numero de contacto con el codigo de Area (+56)\n Ejemplo: +56912345678"
+  - text: |-
+      Indícanos tu NUMERO DE CONTACTO. para garantizar la entrega del producto.
+       Favor Ingresar su numero de contacto con el codigo de Area (+56)
+       Ejemplo: +56912345678
   utter_ask_agregar_salsas:
-  - text: "¿Qué salsas desea agregar?\n contamos con:\n- Salsa de Soya\n- Salsa Agridulce\n\
-      - Salsa Picante\n- Salsa de Jengibre\n- Salsa Wasabi"
+  - text: |-
+      ¿Qué salsas desea agregar?
+       contamos con:
+
+      - Salsa de Soya
+      - Salsa Agridulce
+      - Salsa Picante
+      - Salsa de Jengibre
+      - Salsa Wasabi
   utter_ask_palitos:
-  - text: "¿Cuantos palitos desea?\n Favor de ingresar (Nº) palitos\n EJEMPLO: 3 palitos"
+  - text: |-
+      ¿Cuantos palitos desea?
+      
+       Favor de ingresar (Nº) palitos
+       EJEMPLO: 3 palitos
   utter_ask_metodo_pago:
   - text: 'Su pago se realizara con: "EFECTIVO", "TARJETA" o "TRANSFERENCIA".'
   utter_slots_values:
-  - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
-      \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n\
-      \ - palitos: {palitos}\n - Forma de pago: {metodo_pago}"
+  - text: |-
+      Su pedido Es:
+       - Promoción: {promocion_elegida}
+       - Realizar modificaciones: {hacer_modificaciones}
+       - Modificaciones: {modificaciones}
+       - Lugar de entrega: {entrega_producto}
+       - Nº de contacto: {numero_telefono}
+       - Salsas: {agregar_salsas}
+       - palitos: {palitos}
+       - Forma de pago: {metodo_pago}
   utter_slots_values_pizza:
-  - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Forma de pago:\
-      \ {metodo_pago}"
+  - text: |-
+      Su pedido Es:
+       - Promoción: {promocion_elegida}
+       - Lugar de entrega: {entrega_producto}
+       - Nº de contacto: {numero_telefono}
+       - Forma de pago: {metodo_pago}
   utter_slots_values_handroll:
-  - text: "Su pedido Es:\n - Promoción: {promocion_elegida}\n - Realizar modificaciones:\
-      \ {hacer_modificaciones}\n - Modificaciones: {modificaciones}\n - Lugar de entrega:\
-      \ {entrega_producto}\n - Nº de contacto: {numero_telefono}\n - Salsas: {agregar_salsas}\n\
-      \ - Forma de pago: {metodo_pago}"
+  - text: |-
+      Su pedido Es:
+       - Promoción: {promocion_elegida}
+       - Realizar modificaciones: {hacer_modificaciones}
+       - Modificaciones: {modificaciones}
+       - Lugar de entrega: {entrega_producto}
+       - Nº de contacto: {numero_telefono}
+       - Salsas: {agregar_salsas}
+       - Forma de pago: {metodo_pago}
   utter_continuacion:
   - text: Lo siento, no lo entiendo bien, quieres continuar.
   utter_fuera_de_alcance:
@@ -140,15 +258,13 @@ responses:
   utter_goodbye:
   - text: Hasta pronto, que disfrutes tu delicioso pedido :D
   utter_horarios:
-  - text: Nuestro horario de atención es de Lunes a Domingo de 16:00 hrs hasta 22:30.
-      hrs.
+  - text: Nuestro horario de atención es de Lunes a Domingo de 16:00 hrs hasta 22:30. hrs.
   utter_ubicados:
   - text: Nos encontraras en Av. Pablo Neruda 02130, Temuco, Araucanía.
   utter_sushi_veganos:
   - text: Si, contamos con sushis veganos en nuestros menús.
   utter_iamabot:
-  - text: Soy un CHATBOT, Creado por "CHAT EVOLUTION" para ayudar a realizar tu pedido
-      de manera mas ágil.
+  - text: Soy un CHATBOT, Creado por "CHAT EVOLUTION" para ayudar a realizar tu pedido de manera mas ágil.
   utter_medios_pago:
   - text: Aceptamos pagos en EFECTIVO, TARJETAS "crédito o débito" Y TRANSFERENCIAS.
   utter_contribucion:
@@ -156,8 +272,7 @@ responses:
   utter_reiniciar:
   - text: Comencemos con el pedido nuevamente.
   utter_entregas:
-  - text: Tenemos reparto para Temuco y sus alrededores, el valor del delivery tiene
-      un valor BASE de 1.000 CLP, y un valor agregado dependiendo el sector.
+  - text: Tenemos reparto para Temuco y sus alrededores, el valor del delivery tiene un valor BASE de 1.000 CLP, y un valor agregado dependiendo el sector.
   utter_pedidos_locos:
   - text: Lo siento, no trabajamos con esos alimentos.
   utter_eliminar_ingredientes:
@@ -172,7 +287,9 @@ responses:
     text: Pizza Campestre
   utter_pizza_margarita:
   - image: http://imgfz.com/i/IyQpBce.jpeg
-    text: "Estas son nuestras exquisitas pizzas.\n Pizza Margarita"
+    text: |-
+      Estas son nuestras exquisitas pizzas.
+       Pizza Margarita
   utter_pizza_del_mar:
   - image: http://imgfz.com/i/vA2ue3h.jpeg
     text: Pizza del Mar
@@ -181,8 +298,9 @@ responses:
     text: Pizza Napolitana
   utter_pedir_handroll:
   - image: http://imgfz.com/i/rSebBxj.jpeg
-    text: "Estas son nuestras exquisitas promociones de handrolls.\n - Le recordamos\
-      \ que la promoción de 2x300 solo tiene delivery por la compra de 2 o más promociones"
+    text: |-
+      Estas son nuestras exquisitas promociones de handrolls.
+       - Le recordamos que la promoción de 2x300 solo tiene delivery por la compra de 2 o más promociones
 actions:
 - utter_greet
 - utter_enviar_carta
@@ -228,7 +346,14 @@ actions:
 - utter_pizza_margarita
 - utter_pizza_del_mar
 - utter_pizza_napolitana
-forms:
 - pedido_sushi
 - pedido_pizza
 - pedido_handroll
+forms:
+  pedido_sushi:
+    required_slots: {}
+  pedido_pizza:
+    required_slots: {}
+  pedido_handroll:
+    required_slots: {}
+e2e_actions: []
